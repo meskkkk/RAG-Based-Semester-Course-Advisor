@@ -334,5 +334,4 @@ The full discussion is in the report (section 5). In short:
 | Member | Role |
 |---|---|
 | **Mesk Khaled** | Knowledge base, student profiles, rule checking and rule tests |
-| **Basmala Moataz** | RAG pipeline, recommendation output, chatbot and RAG tests |#   R A G - B a s e d - S e m e s t e r - C o u r s e - A d v i s o r  
- 
+| **Basmala Moataz** | RAG pipeline, recommendation output, chatbot and RAG tests |#
