@@ -45,36 +45,36 @@ Requested courses: CS305, CS306, CS303, CS310, CS401, CS403, HUM401
 Search query: NLP. natural language processing NLP text. deep learning. mobile apps. mobile application development android. python. pytorch. android. level 4 course. offered in Spring
 
 RETRIEVED EVIDENCE (top passages for this student):
-  [0.258] course_descriptions.md#CS403: CS403 - Mobile Application Development. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS204, CS202. Meets: Thu 11:00-14:00. Topics: mobile, software. Mobile Application Development teaches the design...
-  [0.236] course_descriptions.md#CS305: CS305 - Natural Language Processing. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, NLP. Natural Language Processing introduces tok...
-  [0.161] course_descriptions.md#CS401: CS401 - Deep Learning. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS301. Meets: Mon 15:30-17:00; Wed 15:30-17:00. Topics: AI, deep learning. Deep Learning covers neural networks, backpropagation, ...
-  [0.111] course_descriptions.md#MATH202: MATH202 - Probability and Statistics. Level 2 course, 3 credit hours. Offered in: Spring. Prerequisites: MATH101. Meets: Sun 09:30-11:00; Tue 09:30-11:00. Topics: math, data, AI. Probability and Statistics introduces ran...
-  [0.082] course_descriptions.md#CS202: CS202 - Databases. Level 2 course, 3 credit hours. Offered in: Spring. Prerequisites: CS102. Meets: Mon 11:00-12:30; Wed 11:00-12:30. Topics: data, software. Databases introduces relational modelling, SQL, normalisation,...
-  [0.075] course_descriptions.md#CS301: CS301 - Machine Learning. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, data. Machine Learning introduces supervised and un...
+  [0.604] course_descriptions.md#CS305: CS305 - Natural Language Processing. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, NLP. Natural Language Processing introduces tok...
+  [0.508] course_descriptions.md#CS403: CS403 - Mobile Application Development. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS204, CS202. Meets: Thu 11:00-14:00. Topics: mobile, software. Mobile Application Development teaches the design...
+  [0.453] course_descriptions.md#CS401: CS401 - Deep Learning. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS301. Meets: Mon 15:30-17:00; Wed 15:30-17:00. Topics: AI, deep learning. Deep Learning covers neural networks, backpropagation, ...
+  [0.452] course_descriptions.md#CS301: CS301 - Machine Learning. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, data. Machine Learning introduces supervised and un...
+  [0.430] course_descriptions.md#CS204: CS204 - Web Development. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS102. Meets: Thu 11:00-14:00. Topics: web, software. Web Development teaches the building of dynamic websites using HTML, CSS, Ja...
+  [0.404] course_descriptions.md#CS101: CS101 - Introduction to Programming. Level 1 course, 3 credit hours. Offered in: Fall. Prerequisites: none. Meets: Sun 08:00-09:30; Tue 08:00-09:30. Topics: programming, python. This course introduces programming using P...
 
 RECOMMENDED COURSES  (total 17 credit hours; allowed 12-21, R2 overload)
   + CS305 Natural Language Processing (3 cr)
-      why: matches your NLP, python (topics: AI, NLP); relevance 0.24
+      why: matches your NLP, python (topics: AI, NLP); relevance 0.60
       eligible: level 3 <= your level 4 (R4); prerequisites CS201, MATH202 passed (R5); offered in Spring (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)
       sources: course_descriptions.md#CS305, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R2
   + CS303 Computer Networks (3 cr)
-      why: broadens your study plan (topics: systems, networking); relevance 0.02
+      why: broadens your study plan (topics: systems, networking); relevance 0.24
       eligible: level 3 <= your level 4 (R4); prerequisites CS205 passed (R5); offered in Spring (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)
       sources: course_descriptions.md#CS303, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R2
   + CS310 Introduction to Data Science (3 cr)
-      why: matches your python (topics: data, python); relevance 0.03
+      why: matches your python (topics: data, python); relevance 0.35
       eligible: level 3 <= your level 4 (R4); prerequisites CS201, MATH202 passed (R5); offered in Spring (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)
       sources: course_descriptions.md#CS310, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R2
   + CS401 Deep Learning (3 cr)
-      why: matches your deep learning, pytorch (topics: AI, deep learning); relevance 0.19
+      why: matches your deep learning, pytorch (topics: AI, deep learning); relevance 0.48
       eligible: level 4 <= your level 4 (R4); prerequisites CS301 passed (R5); offered in Spring (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)
       sources: course_descriptions.md#CS401, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R2
   + CS403 Mobile Application Development (3 cr)
-      why: matches your android (topics: mobile, software); relevance 0.29
+      why: matches your android (topics: mobile, software); relevance 0.54
       eligible: level 4 <= your level 4 (R4); prerequisites CS204, CS202 passed (R5); offered in Spring (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)
       sources: course_descriptions.md#CS403, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R2
   + HUM401 Professional Ethics (2 cr)
-      why: broadens your study plan (topics: ethics, communication); relevance 0.06
+      why: broadens your study plan (topics: ethics, communication); relevance 0.19
       eligible: level 4 <= your level 4 (R4); no prerequisites (R5); offered in Spring (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)
       sources: course_descriptions.md#HUM401, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R2
 
@@ -88,12 +88,12 @@ FLAGS
 
 ADVISOR MESSAGE
 Hi Laila, based on your interest in NLP, deep learning, mobile apps and the courses you have passed, these 6 course(s) (17 credit hours) are allowed for you this Spring:
-  * CS305 Natural Language Processing: matches your NLP, python (topics: AI, NLP); relevance 0.24 [course_descriptions.md#CS305]
-  * CS303 Computer Networks: broadens your study plan (topics: systems, networking); relevance 0.02 [course_descriptions.md#CS303]
-  * CS310 Introduction to Data Science: matches your python (topics: data, python); relevance 0.03 [course_descriptions.md#CS310]
-  * CS401 Deep Learning: matches your deep learning, pytorch (topics: AI, deep learning); relevance 0.19 [course_descriptions.md#CS401]
-  * CS403 Mobile Application Development: matches your android (topics: mobile, software); relevance 0.29 [course_descriptions.md#CS403]
-  * HUM401 Professional Ethics: broadens your study plan (topics: ethics, communication); relevance 0.06 [course_descriptions.md#HUM401]
+  * CS305 Natural Language Processing: matches your NLP, python (topics: AI, NLP); relevance 0.60 [course_descriptions.md#CS305]
+  * CS303 Computer Networks: broadens your study plan (topics: systems, networking); relevance 0.24 [course_descriptions.md#CS303]
+  * CS310 Introduction to Data Science: matches your python (topics: data, python); relevance 0.35 [course_descriptions.md#CS310]
+  * CS401 Deep Learning: matches your deep learning, pytorch (topics: AI, deep learning); relevance 0.48 [course_descriptions.md#CS401]
+  * CS403 Mobile Application Development: matches your android (topics: mobile, software); relevance 0.54 [course_descriptions.md#CS403]
+  * HUM401 Professional Ethics: broadens your study plan (topics: ethics, communication); relevance 0.19 [course_descriptions.md#HUM401]
   x CS306 not included: R7: time clash with CS305 (CS306 Tue 13:30-15:00 overlaps CS305 Tue 12:30-14:00) [registration_rules.md#R7]
 
 ALL SOURCES USED: course_descriptions.md#CS305, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R2, course_descriptions.md#CS303, course_descriptions.md#CS310, course_descriptions.md#CS401, course_descriptions.md#CS403, course_descriptions.md#HUM401, course_descriptions.md#CS306

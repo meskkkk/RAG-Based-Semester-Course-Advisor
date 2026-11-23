@@ -1,6 +1,6 @@
 {
-  "embedder": "tfidf",
+  "embedder": "minilm:sentence-transformers/all-MiniLM-L6-v2",
   "kb_version": "a4bcce2fabc0a49a",
   "n_chunks": 38,
-  "dim": 2143
+  "dim": 384
 }
