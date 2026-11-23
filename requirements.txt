@@ -1,0 +1,11 @@
+# Tested with Python 3.12 (Python 3.10 or newer)
+numpy>=1.24
+scikit-learn>=1.3          # TF-IDF fallback embedder (works offline)
+sentence-transformers>=2.7 # all-MiniLM-L6-v2 embeddings (downloads ~90 MB once)
+faiss-cpu>=1.7.4           # vector index (NumPy is used if missing)
+groq>=0.9                  # LLM (free API key: https://console.groq.com/keys)
+gradio>=5.0                # B&M web chat interface
+ipykernel                  # run the notebook in VS Code / Jupyter
+# Optional, only if you use Gemini or OpenAI instead of Groq:
+# google-genai
+# openai

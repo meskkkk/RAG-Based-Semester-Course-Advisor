@@ -1,0 +1,100 @@
+==========================================================================================
+S04 - CREDIT LIMIT EXCEEDED (level 4, GPA 3.2, Fall, wants 21 credits)
+==========================================================================================
+INPUT PROFILE
+{
+ "id": "S04",
+ "name": "Youssef Mostafa",
+ "level": 4,
+ "gpa": 3.2,
+ "passed": [
+  "CS101",
+  "CS102",
+  "MATH101",
+  "PHYS101",
+  "ENG101",
+  "MATH102",
+  "CS201",
+  "MATH201",
+  "MATH202",
+  "CS202",
+  "CS203",
+  "CS205",
+  "CS301",
+  "CS302",
+  "CS303",
+  "CS305",
+  "CS306",
+  "CS310"
+ ],
+ "skills": [
+  "python",
+  "sql",
+  "networking"
+ ],
+ "interests": [
+  "security",
+  "big data"
+ ],
+ "desired_credits": 21,
+ "semester": "Fall"
+}
+
+STUDENT S04 - Youssef Mostafa   (mode: requested, LLM: offline template)
+Requested courses: CS402, CS404, CS490, CS307, CS304, HUM401, CS204
+Search query: security. security cybersecurity. big data. big data analytics data. python. sql. networking. level 4 course. offered in Fall
+
+RETRIEVED EVIDENCE (top passages for this student):
+  [0.288] course_descriptions.md#CS404: CS404 - Big Data Analytics. Level 4 course, 3 credit hours. Offered in: Fall. Prerequisites: CS306. Meets: Mon 15:30-17:00; Wed 15:30-17:00. Topics: data, systems. Big Data Analytics studies the tools and architectures u...
+  [0.193] course_descriptions.md#CS306: CS306 - Data Mining. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS202, MATH202. Meets: Sun 14:00-15:30; Tue 13:30-15:00. Topics: data, AI. Data Mining covers methods for finding patterns in large ...
+  [0.164] course_descriptions.md#CS402: CS402 - Cybersecurity. Level 4 course, 3 credit hours. Offered in: Fall. Prerequisites: CS303. Meets: Sun 14:00-15:30; Tue 14:00-15:30. Topics: security, systems. Cybersecurity introduces threats, vulnerabilities, crypto...
+  [0.094] course_descriptions.md#CS310: CS310 - Introduction to Data Science. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS201, MATH202. Meets: Mon 14:00-15:30; Wed 14:00-15:30. Topics: data, python. Introduction to Data Science teaches...
+  [0.074] registration_rules.md#R6: Registration rule R6 - Offered-semester rule. A course may be registered only in a semester in which it is offered. The semesters in which a course is offered are listed in the catalog.
+  [0.071] course_descriptions.md#CS201: CS201 - Data Structures and Algorithms. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS102. Meets: Sun 09:30-11:00; Tue 09:30-11:00. Topics: programming, algorithms. Data Structures and Algorithms cov...
+
+RECOMMENDED COURSES  (total 18 credit hours; allowed 12-18, R1 standard)
+  + CS402 Cybersecurity (3 cr)
+      why: matches your security (topics: security, systems); relevance 0.19
+      eligible: level 4 <= your level 4 (R4); prerequisites CS303 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)
+      sources: course_descriptions.md#CS402, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R1
+  + CS404 Big Data Analytics (3 cr)
+      why: matches your big data (topics: data, systems); relevance 0.32
+      eligible: level 4 <= your level 4 (R4); prerequisites CS306 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)
+      sources: course_descriptions.md#CS404, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R1
+  + CS490 Graduation Project I (3 cr)
+      why: broadens your study plan (topics: project, teamwork); relevance 0.08
+      eligible: level 4 <= your level 4 (R4); prerequisites CS302 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)
+      sources: course_descriptions.md#CS490, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R1
+  + CS307 Embedded Systems (4 cr)
+      why: broadens your study plan (topics: hardware, embedded, IoT); relevance 0.03
+      eligible: level 3 <= your level 4 (R4); prerequisites CS203 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)
+      sources: course_descriptions.md#CS307, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R1
+  + CS304 Image Processing and Computer Vision (3 cr)
+      why: matches your python (topics: AI, vision); relevance 0.03
+      eligible: level 3 <= your level 4 (R4); prerequisites CS201, MATH201 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)
+      sources: course_descriptions.md#CS304, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R1
+  + HUM401 Professional Ethics (2 cr)
+      why: broadens your study plan (topics: ethics, communication); relevance 0.08
+      eligible: level 4 <= your level 4 (R4); no prerequisites (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)
+      sources: course_descriptions.md#HUM401, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R1
+
+EXCLUDED COURSES
+  - CS204 Web Development  [R1]
+      R1: adding CS204 (3 cr) would bring the load to 21 credit hours, above the maximum of 18 (overload to 21 needs GPA >= 3.50, R2)
+      sources: course_descriptions.md#CS204, registration_rules.md#R1
+
+FLAGS
+  ! R1: desired credit load of 21 exceeds the maximum of 18 credit hours allowed (overload to 21 needs GPA >= 3.50, R2)
+
+ADVISOR MESSAGE
+Hi Youssef, based on your interest in security, big data and the courses you have passed, these 6 course(s) (18 credit hours) are allowed for you this Fall:
+  * CS402 Cybersecurity: matches your security (topics: security, systems); relevance 0.19 [course_descriptions.md#CS402]
+  * CS404 Big Data Analytics: matches your big data (topics: data, systems); relevance 0.32 [course_descriptions.md#CS404]
+  * CS490 Graduation Project I: broadens your study plan (topics: project, teamwork); relevance 0.08 [course_descriptions.md#CS490]
+  * CS307 Embedded Systems: broadens your study plan (topics: hardware, embedded, IoT); relevance 0.03 [course_descriptions.md#CS307]
+  * CS304 Image Processing and Computer Vision: matches your python (topics: AI, vision); relevance 0.03 [course_descriptions.md#CS304]
+  * HUM401 Professional Ethics: broadens your study plan (topics: ethics, communication); relevance 0.08 [course_descriptions.md#HUM401]
+  x CS204 not included: R1: adding CS204 (3 cr) would bring the load to 21 credit hours, above the maximum of 18 (overload to 21 needs GPA >= 3.50, R2) [registration_rules.md#R1]
+Please check: R1: desired credit load of 21 exceeds the maximum of 18 credit hours allowed (overload to 21 needs GPA >= 3.50, R2)
+
+ALL SOURCES USED: course_descriptions.md#CS402, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R1, course_descriptions.md#CS404, course_descriptions.md#CS490, course_descriptions.md#CS307, course_descriptions.md#CS304, course_descriptions.md#HUM401, course_descriptions.md#CS204

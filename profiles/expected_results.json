@@ -1,0 +1,270 @@
+[
+  {
+    "profile": "S01",
+    "file": "student_01.json",
+    "scenario": "Normal strong student (level 3, GPA 3.82, Fall)",
+    "candidate_plan": [
+      "CS301",
+      "CS302",
+      "CS205",
+      "CS307"
+    ],
+    "credit_limit": {
+      "min": 12,
+      "max": 21,
+      "rule": "R2"
+    },
+    "accepted": [
+      "CS301",
+      "CS302",
+      "CS205",
+      "CS307"
+    ],
+    "rejected": {},
+    "total_credits": 13,
+    "flag_rules": [],
+    "flag_contains": [],
+    "note": "Every prerequisite is passed, nothing clashes (adjacent slots such as CS205 and CS301 only touch), and 13 credits is inside 12-21."
+  },
+  {
+    "profile": "S02",
+    "file": "student_02.json",
+    "scenario": "UNMET PREREQUISITE (level 3, GPA 2.9, Fall) - MATH202 never passed",
+    "candidate_plan": [
+      "CS301",
+      "CS304",
+      "CS302",
+      "CS205",
+      "CS307",
+      "CS402"
+    ],
+    "credit_limit": {
+      "min": 12,
+      "max": 18,
+      "rule": "R1"
+    },
+    "accepted": [
+      "CS304",
+      "CS302",
+      "CS205",
+      "CS307"
+    ],
+    "rejected": {
+      "CS301": {
+        "rule_refs": [
+          "R5"
+        ],
+        "missing": [
+          "MATH202"
+        ],
+        "why": "needs CS201, MATH201 and MATH202; MATH202 is not passed"
+      },
+      "CS402": {
+        "rule_refs": [
+          "R4",
+          "R5"
+        ],
+        "missing": [
+          "CS303"
+        ],
+        "why": "level 4 course for a level 3 student, and prerequisite CS303 is not passed"
+      }
+    },
+    "total_credits": 13,
+    "flag_rules": [],
+    "flag_contains": [],
+    "note": "CS304 (computer vision) is accepted instead of CS301 because its prerequisites CS201 and MATH201 are passed."
+  },
+  {
+    "profile": "S03",
+    "file": "student_03.json",
+    "scenario": "Low-GPA probation student (level 3, GPA 1.8, Fall)",
+    "candidate_plan": [
+      "CS301",
+      "CS302",
+      "CS205",
+      "CS307",
+      "CS304"
+    ],
+    "credit_limit": {
+      "min": 9,
+      "max": 12,
+      "rule": "R3"
+    },
+    "accepted": [
+      "CS301",
+      "CS302",
+      "CS205"
+    ],
+    "rejected": {
+      "CS307": {
+        "rule_refs": [
+          "R3"
+        ],
+        "missing": [],
+        "why": "9 + 4 credits = 13, above the probation maximum of 12"
+      },
+      "CS304": {
+        "rule_refs": [
+          "R7"
+        ],
+        "missing": [],
+        "why": "same time slot as the accepted CS301 (Sun and Tue 12:30-14:00)"
+      }
+    },
+    "total_credits": 9,
+    "flag_rules": [
+      "R3"
+    ],
+    "flag_contains": [
+      "desired credit load of 15"
+    ],
+    "note": "Same history and same plan as S01, but the probation limit of 12 credits changes the outcome. Desired load 15 is flagged."
+  },
+  {
+    "profile": "S04",
+    "file": "student_04.json",
+    "scenario": "CREDIT LIMIT EXCEEDED (level 4, GPA 3.2, Fall, wants 21 credits)",
+    "candidate_plan": [
+      "CS402",
+      "CS404",
+      "CS490",
+      "CS307",
+      "CS304",
+      "HUM401",
+      "CS204"
+    ],
+    "credit_limit": {
+      "min": 12,
+      "max": 18,
+      "rule": "R1"
+    },
+    "accepted": [
+      "CS402",
+      "CS404",
+      "CS490",
+      "CS307",
+      "CS304",
+      "HUM401"
+    ],
+    "rejected": {
+      "CS204": {
+        "rule_refs": [
+          "R1"
+        ],
+        "missing": [],
+        "why": "18 + 3 credits = 21, above the maximum of 18; overload needs GPA >= 3.50 (R2) and the student has 3.2"
+      }
+    },
+    "total_credits": 18,
+    "flag_rules": [
+      "R1"
+    ],
+    "flag_contains": [
+      "desired credit load of 21"
+    ],
+    "note": "The first six courses fill exactly 18 credits, so the seventh is rejected. Desired load 21 is flagged."
+  },
+  {
+    "profile": "S05",
+    "file": "student_05.json",
+    "scenario": "TIME CLASH (level 4, GPA 3.6, Spring)",
+    "candidate_plan": [
+      "CS305",
+      "CS306",
+      "CS303",
+      "CS310",
+      "CS401",
+      "CS403",
+      "HUM401"
+    ],
+    "credit_limit": {
+      "min": 12,
+      "max": 21,
+      "rule": "R2"
+    },
+    "accepted": [
+      "CS305",
+      "CS303",
+      "CS310",
+      "CS401",
+      "CS403",
+      "HUM401"
+    ],
+    "rejected": {
+      "CS306": {
+        "rule_refs": [
+          "R7"
+        ],
+        "missing": [],
+        "why": "partial overlap with CS305: Tue 13:30-15:00 vs Tue 12:30-14:00"
+      }
+    },
+    "total_credits": 17,
+    "flag_rules": [],
+    "flag_contains": [],
+    "note": "Tests partial overlap (not just identical slots)."
+  },
+  {
+    "profile": "S06",
+    "file": "student_06.json",
+    "scenario": "MISSING DATA (level missing, desired_credits missing, unknown passed code CS999)",
+    "candidate_plan": [
+      "CS101",
+      "CS201",
+      "CS204",
+      "XYZ123"
+    ],
+    "credit_limit": {
+      "min": 12,
+      "max": 18,
+      "rule": "R1"
+    },
+    "accepted": [],
+    "rejected": {
+      "CS101": {
+        "rule_refs": [
+          "R8",
+          "R9"
+        ],
+        "missing": [],
+        "why": "already passed (R8), and level cannot be verified (R9)"
+      },
+      "CS201": {
+        "rule_refs": [
+          "R9"
+        ],
+        "missing": [],
+        "why": "level missing, so R4 cannot be verified; prerequisite CS102 is passed"
+      },
+      "CS204": {
+        "rule_refs": [
+          "R9"
+        ],
+        "missing": [],
+        "why": "level missing, so R4 cannot be verified; prerequisite CS102 is passed"
+      },
+      "XYZ123": {
+        "rule_refs": [
+          "R9"
+        ],
+        "missing": [],
+        "why": "course code is not in the catalog"
+      }
+    },
+    "total_credits": 0,
+    "flag_rules": [
+      "R9",
+      "R9",
+      "R9",
+      "R1"
+    ],
+    "flag_contains": [
+      "'level'",
+      "'desired_credits'",
+      "CS999",
+      "below the minimum"
+    ],
+    "note": "Nothing is approved on a guess: with the level missing, no course can be accepted."
+  }
+]

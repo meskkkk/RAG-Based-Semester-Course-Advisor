@@ -1,0 +1,555 @@
+[
+  {
+    "code": "CS101",
+    "title": "Introduction to Programming",
+    "credits": 3,
+    "level": 1,
+    "prerequisites": [],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Sun 08:00-09:30",
+      "Tue 08:00-09:30"
+    ],
+    "tags": [
+      "programming",
+      "python"
+    ]
+  },
+  {
+    "code": "MATH101",
+    "title": "Calculus I",
+    "credits": 3,
+    "level": 1,
+    "prerequisites": [],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Mon 08:00-09:30",
+      "Wed 08:00-09:30"
+    ],
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "code": "PHYS101",
+    "title": "Physics for Computing",
+    "credits": 3,
+    "level": 1,
+    "prerequisites": [],
+    "offered": [
+      "Fall",
+      "Spring"
+    ],
+    "timeslot": [
+      "Mon 09:30-11:00",
+      "Wed 09:30-11:00"
+    ],
+    "tags": [
+      "science",
+      "hardware"
+    ]
+  },
+  {
+    "code": "ENG101",
+    "title": "Technical Writing",
+    "credits": 2,
+    "level": 1,
+    "prerequisites": [],
+    "offered": [
+      "Fall",
+      "Spring"
+    ],
+    "timeslot": [
+      "Thu 08:00-11:00"
+    ],
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "code": "MATH102",
+    "title": "Discrete Mathematics",
+    "credits": 3,
+    "level": 1,
+    "prerequisites": [],
+    "offered": [
+      "Spring"
+    ],
+    "timeslot": [
+      "Mon 08:00-09:30",
+      "Wed 08:00-09:30"
+    ],
+    "tags": [
+      "math",
+      "logic"
+    ]
+  },
+  {
+    "code": "CS102",
+    "title": "Object-Oriented Programming",
+    "credits": 3,
+    "level": 1,
+    "prerequisites": [
+      "CS101"
+    ],
+    "offered": [
+      "Spring"
+    ],
+    "timeslot": [
+      "Sun 08:00-09:30",
+      "Tue 08:00-09:30"
+    ],
+    "tags": [
+      "programming",
+      "software"
+    ]
+  },
+  {
+    "code": "CS201",
+    "title": "Data Structures and Algorithms",
+    "credits": 3,
+    "level": 2,
+    "prerequisites": [
+      "CS102"
+    ],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Sun 09:30-11:00",
+      "Tue 09:30-11:00"
+    ],
+    "tags": [
+      "programming",
+      "algorithms"
+    ]
+  },
+  {
+    "code": "MATH201",
+    "title": "Linear Algebra",
+    "credits": 3,
+    "level": 2,
+    "prerequisites": [
+      "MATH101"
+    ],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Mon 11:00-12:30",
+      "Wed 11:00-12:30"
+    ],
+    "tags": [
+      "math",
+      "AI"
+    ]
+  },
+  {
+    "code": "MATH202",
+    "title": "Probability and Statistics",
+    "credits": 3,
+    "level": 2,
+    "prerequisites": [
+      "MATH101"
+    ],
+    "offered": [
+      "Spring"
+    ],
+    "timeslot": [
+      "Sun 09:30-11:00",
+      "Tue 09:30-11:00"
+    ],
+    "tags": [
+      "math",
+      "data",
+      "AI"
+    ]
+  },
+  {
+    "code": "CS202",
+    "title": "Databases",
+    "credits": 3,
+    "level": 2,
+    "prerequisites": [
+      "CS102"
+    ],
+    "offered": [
+      "Spring"
+    ],
+    "timeslot": [
+      "Mon 11:00-12:30",
+      "Wed 11:00-12:30"
+    ],
+    "tags": [
+      "data",
+      "software"
+    ]
+  },
+  {
+    "code": "CS203",
+    "title": "Computer Organization",
+    "credits": 4,
+    "level": 2,
+    "prerequisites": [
+      "CS101",
+      "PHYS101"
+    ],
+    "offered": [
+      "Spring"
+    ],
+    "timeslot": [
+      "Sun 11:00-12:30",
+      "Tue 11:00-12:30"
+    ],
+    "tags": [
+      "hardware",
+      "systems"
+    ]
+  },
+  {
+    "code": "CS204",
+    "title": "Web Development",
+    "credits": 3,
+    "level": 2,
+    "prerequisites": [
+      "CS102"
+    ],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Thu 11:00-14:00"
+    ],
+    "tags": [
+      "web",
+      "software"
+    ]
+  },
+  {
+    "code": "CS205",
+    "title": "Operating Systems",
+    "credits": 3,
+    "level": 2,
+    "prerequisites": [
+      "CS203"
+    ],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Sun 11:00-12:30",
+      "Tue 11:00-12:30"
+    ],
+    "tags": [
+      "systems"
+    ]
+  },
+  {
+    "code": "CS301",
+    "title": "Machine Learning",
+    "credits": 3,
+    "level": 3,
+    "prerequisites": [
+      "CS201",
+      "MATH201",
+      "MATH202"
+    ],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Sun 12:30-14:00",
+      "Tue 12:30-14:00"
+    ],
+    "tags": [
+      "AI",
+      "data"
+    ]
+  },
+  {
+    "code": "CS302",
+    "title": "Software Engineering",
+    "credits": 3,
+    "level": 3,
+    "prerequisites": [
+      "CS202"
+    ],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Mon 12:30-14:00",
+      "Wed 12:30-14:00"
+    ],
+    "tags": [
+      "software",
+      "teamwork"
+    ]
+  },
+  {
+    "code": "CS303",
+    "title": "Computer Networks",
+    "credits": 3,
+    "level": 3,
+    "prerequisites": [
+      "CS205"
+    ],
+    "offered": [
+      "Spring"
+    ],
+    "timeslot": [
+      "Mon 12:30-14:00",
+      "Wed 12:30-14:00"
+    ],
+    "tags": [
+      "systems",
+      "networking"
+    ]
+  },
+  {
+    "code": "CS304",
+    "title": "Image Processing and Computer Vision",
+    "credits": 3,
+    "level": 3,
+    "prerequisites": [
+      "CS201",
+      "MATH201"
+    ],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Sun 12:30-14:00",
+      "Tue 12:30-14:00"
+    ],
+    "tags": [
+      "AI",
+      "vision"
+    ]
+  },
+  {
+    "code": "CS305",
+    "title": "Natural Language Processing",
+    "credits": 3,
+    "level": 3,
+    "prerequisites": [
+      "CS201",
+      "MATH202"
+    ],
+    "offered": [
+      "Spring"
+    ],
+    "timeslot": [
+      "Sun 12:30-14:00",
+      "Tue 12:30-14:00"
+    ],
+    "tags": [
+      "AI",
+      "NLP"
+    ]
+  },
+  {
+    "code": "CS306",
+    "title": "Data Mining",
+    "credits": 3,
+    "level": 3,
+    "prerequisites": [
+      "CS202",
+      "MATH202"
+    ],
+    "offered": [
+      "Spring"
+    ],
+    "timeslot": [
+      "Sun 14:00-15:30",
+      "Tue 13:30-15:00"
+    ],
+    "tags": [
+      "data",
+      "AI"
+    ]
+  },
+  {
+    "code": "CS307",
+    "title": "Embedded Systems",
+    "credits": 4,
+    "level": 3,
+    "prerequisites": [
+      "CS203"
+    ],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Mon 14:00-15:30",
+      "Wed 14:00-15:30"
+    ],
+    "tags": [
+      "hardware",
+      "embedded",
+      "IoT"
+    ]
+  },
+  {
+    "code": "CS310",
+    "title": "Introduction to Data Science",
+    "credits": 3,
+    "level": 3,
+    "prerequisites": [
+      "CS201",
+      "MATH202"
+    ],
+    "offered": [
+      "Spring"
+    ],
+    "timeslot": [
+      "Mon 14:00-15:30",
+      "Wed 14:00-15:30"
+    ],
+    "tags": [
+      "data",
+      "python"
+    ]
+  },
+  {
+    "code": "CS401",
+    "title": "Deep Learning",
+    "credits": 3,
+    "level": 4,
+    "prerequisites": [
+      "CS301"
+    ],
+    "offered": [
+      "Spring"
+    ],
+    "timeslot": [
+      "Mon 15:30-17:00",
+      "Wed 15:30-17:00"
+    ],
+    "tags": [
+      "AI",
+      "deep learning"
+    ]
+  },
+  {
+    "code": "CS402",
+    "title": "Cybersecurity",
+    "credits": 3,
+    "level": 4,
+    "prerequisites": [
+      "CS303"
+    ],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Sun 14:00-15:30",
+      "Tue 14:00-15:30"
+    ],
+    "tags": [
+      "security",
+      "systems"
+    ]
+  },
+  {
+    "code": "CS403",
+    "title": "Mobile Application Development",
+    "credits": 3,
+    "level": 4,
+    "prerequisites": [
+      "CS204",
+      "CS202"
+    ],
+    "offered": [
+      "Spring"
+    ],
+    "timeslot": [
+      "Thu 11:00-14:00"
+    ],
+    "tags": [
+      "mobile",
+      "software"
+    ]
+  },
+  {
+    "code": "CS404",
+    "title": "Big Data Analytics",
+    "credits": 3,
+    "level": 4,
+    "prerequisites": [
+      "CS306"
+    ],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Mon 15:30-17:00",
+      "Wed 15:30-17:00"
+    ],
+    "tags": [
+      "data",
+      "systems"
+    ]
+  },
+  {
+    "code": "CS490",
+    "title": "Graduation Project I",
+    "credits": 3,
+    "level": 4,
+    "prerequisites": [
+      "CS302"
+    ],
+    "offered": [
+      "Fall"
+    ],
+    "timeslot": [
+      "Thu 14:00-17:00"
+    ],
+    "tags": [
+      "project",
+      "teamwork"
+    ]
+  },
+  {
+    "code": "CS491",
+    "title": "Graduation Project II",
+    "credits": 4,
+    "level": 4,
+    "prerequisites": [
+      "CS490"
+    ],
+    "offered": [
+      "Spring"
+    ],
+    "timeslot": [
+      "Thu 14:00-17:00"
+    ],
+    "tags": [
+      "project",
+      "teamwork"
+    ]
+  },
+  {
+    "code": "HUM401",
+    "title": "Professional Ethics",
+    "credits": 2,
+    "level": 4,
+    "prerequisites": [],
+    "offered": [
+      "Fall",
+      "Spring"
+    ],
+    "timeslot": [
+      "Sun 15:30-17:00",
+      "Tue 15:30-17:00"
+    ],
+    "tags": [
+      "ethics",
+      "communication"
+    ]
+  }
+]

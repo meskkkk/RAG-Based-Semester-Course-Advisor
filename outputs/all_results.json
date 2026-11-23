@@ -1,0 +1,1446 @@
+{
+ "S01": {
+  "student": "S01",
+  "name": "Nour Hassan",
+  "mode": "requested",
+  "requested": [
+   "CS301",
+   "CS302",
+   "CS205",
+   "CS307"
+  ],
+  "query": "AI. artificial intelligence AI machine learning. computer vision. computer vision image processing. python. linear algebra. level 3 course. offered in Fall",
+  "courses": [
+   {
+    "code": "CS301",
+    "title": "Machine Learning",
+    "credits": 3,
+    "why": "matches your AI, python (topics: AI, data); relevance 0.19",
+    "eligibility": "level 3 <= your level 3 (R4); prerequisites CS201, MATH201, MATH202 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)",
+    "sources": [
+     "course_descriptions.md#CS301",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R2"
+    ]
+   },
+   {
+    "code": "CS302",
+    "title": "Software Engineering",
+    "credits": 3,
+    "why": "broadens your study plan (topics: software, teamwork); relevance 0.07",
+    "eligibility": "level 3 <= your level 3 (R4); prerequisites CS202 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)",
+    "sources": [
+     "course_descriptions.md#CS302",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R2"
+    ]
+   },
+   {
+    "code": "CS205",
+    "title": "Operating Systems",
+    "credits": 3,
+    "why": "broadens your study plan (topics: systems); relevance 0.04",
+    "eligibility": "level 2 <= your level 3 (R4); prerequisites CS203 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)",
+    "sources": [
+     "course_descriptions.md#CS205",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R2"
+    ]
+   },
+   {
+    "code": "CS307",
+    "title": "Embedded Systems",
+    "credits": 4,
+    "why": "broadens your study plan (topics: hardware, embedded, IoT); relevance 0.07",
+    "eligibility": "level 3 <= your level 3 (R4); prerequisites CS203 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)",
+    "sources": [
+     "course_descriptions.md#CS307",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R2"
+    ]
+   }
+  ],
+  "excluded": [],
+  "total_credits": 13,
+  "credit_limits": {
+   "min": 12,
+   "max": 21,
+   "rule": "R2",
+   "status": "overload"
+  },
+  "flags": [],
+  "retrieved": [
+   {
+    "text": "CS304 - Image Processing and Computer Vision. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, vision.\nImage Processing and Computer Vision covers filtering, edge detection, feature extraction, and geometric transformations. Students learn classical methods for object detection and tracking, and are introduced to convolutional neural networks. Programming work uses Python and OpenCV. A final project builds a simple vision application such as a lane detector or a document scanner. The course suits students interested in AI, robotics, and assistive technology.",
+    "source": "course_descriptions.md#CS304",
+    "score": 0.3498,
+    "kind": "course",
+    "ref": "CS304"
+   },
+   {
+    "text": "MATH201 - Linear Algebra. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: MATH101. Meets: Mon 11:00-12:30; Wed 11:00-12:30. Topics: math, AI.\nLinear Algebra covers vectors, matrices, systems of linear equations, determinants, and vector spaces. Students study eigenvalues, eigenvectors, orthogonality, and the singular value decomposition. Examples come from graphics, data compression, and machine learning. Students use Python libraries to verify results computed by hand. This course supplies the mathematical language of modern AI.",
+    "source": "course_descriptions.md#MATH201",
+    "score": 0.216,
+    "kind": "course",
+    "ref": "MATH201"
+   },
+   {
+    "text": "CS301 - Machine Learning. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, data.\nMachine Learning introduces supervised and unsupervised learning, including linear models, decision trees, support vector machines, and clustering. Students study model evaluation, overfitting, regularisation, and feature engineering. Practical work uses Python and scikit-learn on real datasets. The course ends with a project that compares several models on a problem chosen by the student. It is the entry point to deep learning and applied AI.",
+    "source": "course_descriptions.md#CS301",
+    "score": 0.1585,
+    "kind": "course",
+    "ref": "CS301"
+   },
+   {
+    "text": "CS201 - Data Structures and Algorithms. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS102. Meets: Sun 09:30-11:00; Tue 09:30-11:00. Topics: programming, algorithms.\nData Structures and Algorithms covers arrays, linked lists, stacks, queues, trees, hash tables, and graphs. Students analyse running time using Big-O notation and compare sorting and searching algorithms. The course introduces recursion, dynamic programming, and greedy methods. Programming assignments require efficient implementations and careful testing. It is a core prerequisite for machine learning, vision, and language processing courses.",
+    "source": "course_descriptions.md#CS201",
+    "score": 0.0935,
+    "kind": "course",
+    "ref": "CS201"
+   },
+   {
+    "text": "MATH202 - Probability and Statistics. Level 2 course, 3 credit hours. Offered in: Spring. Prerequisites: MATH101. Meets: Sun 09:30-11:00; Tue 09:30-11:00. Topics: math, data, AI.\nProbability and Statistics introduces random variables, common distributions, expectation, and variance. It covers sampling, confidence intervals, hypothesis testing, and simple regression. Students practise analysing real datasets with Python. The course emphasises how to reason about uncertainty and noisy measurements. It is required for machine learning, data mining, and natural language processing.",
+    "source": "course_descriptions.md#MATH202",
+    "score": 0.0853,
+    "kind": "course",
+    "ref": "MATH202"
+   },
+   {
+    "text": "CS401 - Deep Learning. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS301. Meets: Mon 15:30-17:00; Wed 15:30-17:00. Topics: AI, deep learning.\nDeep Learning covers neural networks, backpropagation, convolutional and recurrent architectures, and transformers. Students train models with PyTorch or TensorFlow and learn practical techniques such as normalisation, augmentation, and transfer learning. The course discusses training at scale and deployment on limited hardware. A final project reproduces and extends a recent research result. It builds directly on machine learning.",
+    "source": "course_descriptions.md#CS401",
+    "score": 0.081,
+    "kind": "course",
+    "ref": "CS401"
+   }
+  ],
+  "evidence": [
+   {
+    "text": "CS301 - Machine Learning. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, data.\nMachine Learning introduces supervised and unsupervised learning, including linear models, decision trees, support vector machines, and clustering. Students study model evaluation, overfitting, regularisation, and feature engineering. Practical work uses Python and scikit-learn on real datasets. The course ends with a project that compares several models on a problem chosen by the student. It is the entry point to deep learning and applied AI.",
+    "source": "course_descriptions.md#CS301",
+    "score": 0.1885,
+    "kind": "course",
+    "ref": "CS301"
+   },
+   {
+    "text": "Registration rule R4 - Level eligibility. A student may register only for courses whose level is equal to or lower than the student's own level. A student in level 3 may take level 1, 2, and 3 courses, but not level 4 courses. There are no exceptions to this rule.",
+    "source": "registration_rules.md#R4",
+    "score": null,
+    "kind": "rule",
+    "ref": "R4"
+   },
+   {
+    "text": "Registration rule R5 - Prerequisite policy. Every prerequisite listed for a course must be a passed course before the semester starts. A prerequisite cannot be taken at the same time as the course. Chained prerequisites apply in order, so a student must pass each course in the chain before the next one.",
+    "source": "registration_rules.md#R5",
+    "score": null,
+    "kind": "rule",
+    "ref": "R5"
+   },
+   {
+    "text": "Registration rule R6 - Offered-semester rule. A course may be registered only in a semester in which it is offered. The semesters in which a course is offered are listed in the catalog.",
+    "source": "registration_rules.md#R6",
+    "score": null,
+    "kind": "rule",
+    "ref": "R6"
+   },
+   {
+    "text": "Registration rule R7 - No time clashes. A student may not register for two courses whose meeting times overlap on the same day. Two meetings clash if one starts before the other ends. A meeting that ends exactly when another starts is not a clash.",
+    "source": "registration_rules.md#R7",
+    "score": null,
+    "kind": "rule",
+    "ref": "R7"
+   },
+   {
+    "text": "Registration rule R2 - Overload for high GPA. A student with a cumulative GPA of 3.50 or higher may register for up to 21 credit hours. The minimum of 12 credit hours from R1 still applies. A GPA below 3.50 gives no overload, and the maximum stays at 18 credit hours.",
+    "source": "registration_rules.md#R2",
+    "score": null,
+    "kind": "rule",
+    "ref": "R2"
+   },
+   {
+    "text": "CS302 - Software Engineering. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS202. Meets: Mon 12:30-14:00; Wed 12:30-14:00. Topics: software, teamwork.\nSoftware Engineering covers requirements, design, testing, and maintenance of larger software systems. Students work in teams using agile methods, issue tracking, and continuous integration. The course introduces UML modelling and code review practice. A semester project delivers a working product to a simulated client. It prepares students for the graduation project.",
+    "source": "course_descriptions.md#CS302",
+    "score": 0.0726,
+    "kind": "course",
+    "ref": "CS302"
+   },
+   {
+    "text": "CS205 - Operating Systems. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS203. Meets: Sun 11:00-12:30; Tue 11:00-12:30. Topics: systems.\nOperating Systems covers processes, threads, scheduling, synchronisation, memory management, and file systems. Students write programs that use system calls and concurrency primitives. The course explains deadlocks and how an operating system prevents or recovers from them. Labs use a Linux environment and a small teaching kernel. It leads to computer networks and cybersecurity.",
+    "source": "course_descriptions.md#CS205",
+    "score": 0.0423,
+    "kind": "course",
+    "ref": "CS205"
+   },
+   {
+    "text": "CS307 - Embedded Systems. Level 3 course, 4 credit hours. Offered in: Fall. Prerequisites: CS203. Meets: Mon 14:00-15:30; Wed 14:00-15:30. Topics: hardware, embedded, IoT.\nEmbedded Systems teaches the design of software for microcontroller-based devices. Topics include interrupts, timers, serial communication, sensor interfacing, and real-time scheduling. Weekly labs use ESP32 boards and common sensors. Students build a complete device that senses its environment and reports over a wireless link. The course suits students interested in robotics, IoT, and wearable devices.",
+    "source": "course_descriptions.md#CS307",
+    "score": 0.0671,
+    "kind": "course",
+    "ref": "CS307"
+   }
+  ],
+  "sources": [
+   "course_descriptions.md#CS301",
+   "registration_rules.md#R4",
+   "registration_rules.md#R5",
+   "registration_rules.md#R6",
+   "registration_rules.md#R7",
+   "registration_rules.md#R2",
+   "course_descriptions.md#CS302",
+   "course_descriptions.md#CS205",
+   "course_descriptions.md#CS307"
+  ],
+  "summary": "Hi Nour, based on your interest in AI, computer vision and the courses you have passed, these 4 course(s) (13 credit hours) are allowed for you this Fall:\n  * CS301 Machine Learning: matches your AI, python (topics: AI, data); relevance 0.19 [course_descriptions.md#CS301]\n  * CS302 Software Engineering: broadens your study plan (topics: software, teamwork); relevance 0.07 [course_descriptions.md#CS302]\n  * CS205 Operating Systems: broadens your study plan (topics: systems); relevance 0.04 [course_descriptions.md#CS205]\n  * CS307 Embedded Systems: broadens your study plan (topics: hardware, embedded, IoT); relevance 0.07 [course_descriptions.md#CS307]",
+  "llm": "offline template"
+ },
+ "S02": {
+  "student": "S02",
+  "name": "Omar Khaled",
+  "mode": "requested",
+  "requested": [
+   "CS301",
+   "CS304",
+   "CS302",
+   "CS205",
+   "CS307",
+   "CS402"
+  ],
+  "query": "AI. artificial intelligence AI machine learning. machine learning. python. level 3 course. offered in Fall",
+  "courses": [
+   {
+    "code": "CS304",
+    "title": "Image Processing and Computer Vision",
+    "credits": 3,
+    "why": "matches your AI, python (topics: AI, vision); relevance 0.14",
+    "eligibility": "level 3 <= your level 3 (R4); prerequisites CS201, MATH201 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)",
+    "sources": [
+     "course_descriptions.md#CS304",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R1"
+    ]
+   },
+   {
+    "code": "CS302",
+    "title": "Software Engineering",
+    "credits": 3,
+    "why": "broadens your study plan (topics: software, teamwork); relevance 0.09",
+    "eligibility": "level 3 <= your level 3 (R4); prerequisites CS202 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)",
+    "sources": [
+     "course_descriptions.md#CS302",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R1"
+    ]
+   },
+   {
+    "code": "CS205",
+    "title": "Operating Systems",
+    "credits": 3,
+    "why": "broadens your study plan (topics: systems); relevance 0.03",
+    "eligibility": "level 2 <= your level 3 (R4); prerequisites CS203 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)",
+    "sources": [
+     "course_descriptions.md#CS205",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R1"
+    ]
+   },
+   {
+    "code": "CS307",
+    "title": "Embedded Systems",
+    "credits": 4,
+    "why": "broadens your study plan (topics: hardware, embedded, IoT); relevance 0.09",
+    "eligibility": "level 3 <= your level 3 (R4); prerequisites CS203 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)",
+    "sources": [
+     "course_descriptions.md#CS307",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R1"
+    ]
+   }
+  ],
+  "excluded": [
+   {
+    "code": "CS301",
+    "title": "Machine Learning",
+    "reasons": [
+     "R5: prerequisite(s) not passed: MATH202 (required for CS301)"
+    ],
+    "rule_refs": [
+     "R5"
+    ],
+    "missing": [
+     "MATH202"
+    ],
+    "sources": [
+     "course_descriptions.md#CS301",
+     "registration_rules.md#R5"
+    ]
+   },
+   {
+    "code": "CS402",
+    "title": "Cybersecurity",
+    "reasons": [
+     "R4: CS402 is a level 4 course but the student is in level 3",
+     "R5: prerequisite(s) not passed: CS303 (required for CS402)"
+    ],
+    "rule_refs": [
+     "R4",
+     "R5"
+    ],
+    "missing": [
+     "CS303"
+    ],
+    "sources": [
+     "course_descriptions.md#CS402",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5"
+    ]
+   }
+  ],
+  "total_credits": 13,
+  "credit_limits": {
+   "min": 12,
+   "max": 18,
+   "rule": "R1",
+   "status": "standard"
+  },
+  "flags": [],
+  "retrieved": [
+   {
+    "text": "CS301 - Machine Learning. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, data.\nMachine Learning introduces supervised and unsupervised learning, including linear models, decision trees, support vector machines, and clustering. Students study model evaluation, overfitting, regularisation, and feature engineering. Practical work uses Python and scikit-learn on real datasets. The course ends with a project that compares several models on a problem chosen by the student. It is the entry point to deep learning and applied AI.",
+    "source": "course_descriptions.md#CS301",
+    "score": 0.2847,
+    "kind": "course",
+    "ref": "CS301"
+   },
+   {
+    "text": "CS401 - Deep Learning. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS301. Meets: Mon 15:30-17:00; Wed 15:30-17:00. Topics: AI, deep learning.\nDeep Learning covers neural networks, backpropagation, convolutional and recurrent architectures, and transformers. Students train models with PyTorch or TensorFlow and learn practical techniques such as normalisation, augmentation, and transfer learning. The course discusses training at scale and deployment on limited hardware. A final project reproduces and extends a recent research result. It builds directly on machine learning.",
+    "source": "course_descriptions.md#CS401",
+    "score": 0.1787,
+    "kind": "course",
+    "ref": "CS401"
+   },
+   {
+    "text": "MATH201 - Linear Algebra. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: MATH101. Meets: Mon 11:00-12:30; Wed 11:00-12:30. Topics: math, AI.\nLinear Algebra covers vectors, matrices, systems of linear equations, determinants, and vector spaces. Students study eigenvalues, eigenvectors, orthogonality, and the singular value decomposition. Examples come from graphics, data compression, and machine learning. Students use Python libraries to verify results computed by hand. This course supplies the mathematical language of modern AI.",
+    "source": "course_descriptions.md#MATH201",
+    "score": 0.1765,
+    "kind": "course",
+    "ref": "MATH201"
+   },
+   {
+    "text": "MATH202 - Probability and Statistics. Level 2 course, 3 credit hours. Offered in: Spring. Prerequisites: MATH101. Meets: Sun 09:30-11:00; Tue 09:30-11:00. Topics: math, data, AI.\nProbability and Statistics introduces random variables, common distributions, expectation, and variance. It covers sampling, confidence intervals, hypothesis testing, and simple regression. Students practise analysing real datasets with Python. The course emphasises how to reason about uncertainty and noisy measurements. It is required for machine learning, data mining, and natural language processing.",
+    "source": "course_descriptions.md#MATH202",
+    "score": 0.1492,
+    "kind": "course",
+    "ref": "MATH202"
+   },
+   {
+    "text": "CS201 - Data Structures and Algorithms. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS102. Meets: Sun 09:30-11:00; Tue 09:30-11:00. Topics: programming, algorithms.\nData Structures and Algorithms covers arrays, linked lists, stacks, queues, trees, hash tables, and graphs. Students analyse running time using Big-O notation and compare sorting and searching algorithms. The course introduces recursion, dynamic programming, and greedy methods. Programming assignments require efficient implementations and careful testing. It is a core prerequisite for machine learning, vision, and language processing courses.",
+    "source": "course_descriptions.md#CS201",
+    "score": 0.1141,
+    "kind": "course",
+    "ref": "CS201"
+   },
+   {
+    "text": "CS304 - Image Processing and Computer Vision. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, vision.\nImage Processing and Computer Vision covers filtering, edge detection, feature extraction, and geometric transformations. Students learn classical methods for object detection and tracking, and are introduced to convolutional neural networks. Programming work uses Python and OpenCV. A final project builds a simple vision application such as a lane detector or a document scanner. The course suits students interested in AI, robotics, and assistive technology.",
+    "source": "course_descriptions.md#CS304",
+    "score": 0.1055,
+    "kind": "course",
+    "ref": "CS304"
+   }
+  ],
+  "evidence": [
+   {
+    "text": "CS304 - Image Processing and Computer Vision. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, vision.\nImage Processing and Computer Vision covers filtering, edge detection, feature extraction, and geometric transformations. Students learn classical methods for object detection and tracking, and are introduced to convolutional neural networks. Programming work uses Python and OpenCV. A final project builds a simple vision application such as a lane detector or a document scanner. The course suits students interested in AI, robotics, and assistive technology.",
+    "source": "course_descriptions.md#CS304",
+    "score": 0.1355,
+    "kind": "course",
+    "ref": "CS304"
+   },
+   {
+    "text": "Registration rule R4 - Level eligibility. A student may register only for courses whose level is equal to or lower than the student's own level. A student in level 3 may take level 1, 2, and 3 courses, but not level 4 courses. There are no exceptions to this rule.",
+    "source": "registration_rules.md#R4",
+    "score": null,
+    "kind": "rule",
+    "ref": "R4"
+   },
+   {
+    "text": "Registration rule R5 - Prerequisite policy. Every prerequisite listed for a course must be a passed course before the semester starts. A prerequisite cannot be taken at the same time as the course. Chained prerequisites apply in order, so a student must pass each course in the chain before the next one.",
+    "source": "registration_rules.md#R5",
+    "score": null,
+    "kind": "rule",
+    "ref": "R5"
+   },
+   {
+    "text": "Registration rule R6 - Offered-semester rule. A course may be registered only in a semester in which it is offered. The semesters in which a course is offered are listed in the catalog.",
+    "source": "registration_rules.md#R6",
+    "score": null,
+    "kind": "rule",
+    "ref": "R6"
+   },
+   {
+    "text": "Registration rule R7 - No time clashes. A student may not register for two courses whose meeting times overlap on the same day. Two meetings clash if one starts before the other ends. A meeting that ends exactly when another starts is not a clash.",
+    "source": "registration_rules.md#R7",
+    "score": null,
+    "kind": "rule",
+    "ref": "R7"
+   },
+   {
+    "text": "Registration rule R1 - Credit-hour range. In a regular semester a student must register for at least 12 and at most 18 credit hours. A semester load below 12 credit hours is not allowed unless rule R3 applies. The limits of R2 and R3 replace the maximum of 18 for the students they describe.",
+    "source": "registration_rules.md#R1",
+    "score": null,
+    "kind": "rule",
+    "ref": "R1"
+   },
+   {
+    "text": "CS302 - Software Engineering. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS202. Meets: Mon 12:30-14:00; Wed 12:30-14:00. Topics: software, teamwork.\nSoftware Engineering covers requirements, design, testing, and maintenance of larger software systems. Students work in teams using agile methods, issue tracking, and continuous integration. The course introduces UML modelling and code review practice. A semester project delivers a working product to a simulated client. It prepares students for the graduation project.",
+    "source": "course_descriptions.md#CS302",
+    "score": 0.0938,
+    "kind": "course",
+    "ref": "CS302"
+   },
+   {
+    "text": "CS205 - Operating Systems. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS203. Meets: Sun 11:00-12:30; Tue 11:00-12:30. Topics: systems.\nOperating Systems covers processes, threads, scheduling, synchronisation, memory management, and file systems. Students write programs that use system calls and concurrency primitives. The course explains deadlocks and how an operating system prevents or recovers from them. Labs use a Linux environment and a small teaching kernel. It leads to computer networks and cybersecurity.",
+    "source": "course_descriptions.md#CS205",
+    "score": 0.0331,
+    "kind": "course",
+    "ref": "CS205"
+   },
+   {
+    "text": "CS307 - Embedded Systems. Level 3 course, 4 credit hours. Offered in: Fall. Prerequisites: CS203. Meets: Mon 14:00-15:30; Wed 14:00-15:30. Topics: hardware, embedded, IoT.\nEmbedded Systems teaches the design of software for microcontroller-based devices. Topics include interrupts, timers, serial communication, sensor interfacing, and real-time scheduling. Weekly labs use ESP32 boards and common sensors. Students build a complete device that senses its environment and reports over a wireless link. The course suits students interested in robotics, IoT, and wearable devices.",
+    "source": "course_descriptions.md#CS307",
+    "score": 0.0857,
+    "kind": "course",
+    "ref": "CS307"
+   },
+   {
+    "text": "CS301 - Machine Learning. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, data.\nMachine Learning introduces supervised and unsupervised learning, including linear models, decision trees, support vector machines, and clustering. Students study model evaluation, overfitting, regularisation, and feature engineering. Practical work uses Python and scikit-learn on real datasets. The course ends with a project that compares several models on a problem chosen by the student. It is the entry point to deep learning and applied AI.",
+    "source": "course_descriptions.md#CS301",
+    "score": null,
+    "kind": "course",
+    "ref": "CS301"
+   },
+   {
+    "text": "CS402 - Cybersecurity. Level 4 course, 3 credit hours. Offered in: Fall. Prerequisites: CS303. Meets: Sun 14:00-15:30; Tue 14:00-15:30. Topics: security, systems.\nCybersecurity introduces threats, vulnerabilities, cryptography, authentication, and secure system design. Students practise defensive techniques in controlled lab environments. Topics include web application security, network defence, and incident response. The course also covers the legal and ethical responsibilities of security professionals. It builds on the networks course.",
+    "source": "course_descriptions.md#CS402",
+    "score": null,
+    "kind": "course",
+    "ref": "CS402"
+   }
+  ],
+  "sources": [
+   "course_descriptions.md#CS304",
+   "registration_rules.md#R4",
+   "registration_rules.md#R5",
+   "registration_rules.md#R6",
+   "registration_rules.md#R7",
+   "registration_rules.md#R1",
+   "course_descriptions.md#CS302",
+   "course_descriptions.md#CS205",
+   "course_descriptions.md#CS307",
+   "course_descriptions.md#CS301",
+   "course_descriptions.md#CS402"
+  ],
+  "summary": "Hi Omar, based on your interest in AI, machine learning and the courses you have passed, these 4 course(s) (13 credit hours) are allowed for you this Fall:\n  * CS304 Image Processing and Computer Vision: matches your AI, python (topics: AI, vision); relevance 0.14 [course_descriptions.md#CS304]\n  * CS302 Software Engineering: broadens your study plan (topics: software, teamwork); relevance 0.09 [course_descriptions.md#CS302]\n  * CS205 Operating Systems: broadens your study plan (topics: systems); relevance 0.03 [course_descriptions.md#CS205]\n  * CS307 Embedded Systems: broadens your study plan (topics: hardware, embedded, IoT); relevance 0.09 [course_descriptions.md#CS307]\n  x CS301 not included: R5: prerequisite(s) not passed: MATH202 (required for CS301) [registration_rules.md#R5]\n  x CS402 not included: R4: CS402 is a level 4 course but the student is in level 3; R5: prerequisite(s) not passed: CS303 (required for CS402) [registration_rules.md#R4] [registration_rules.md#R5]",
+  "llm": "offline template"
+ },
+ "S03": {
+  "student": "S03",
+  "name": "Salma Adel",
+  "mode": "requested",
+  "requested": [
+   "CS301",
+   "CS302",
+   "CS205",
+   "CS307",
+   "CS304"
+  ],
+  "query": "AI. artificial intelligence AI machine learning. data. python. level 3 course. offered in Fall",
+  "courses": [
+   {
+    "code": "CS301",
+    "title": "Machine Learning",
+    "credits": 3,
+    "why": "matches your AI, data, python (topics: AI, data); relevance 0.26",
+    "eligibility": "level 3 <= your level 3 (R4); prerequisites CS201, MATH201, MATH202 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 9-12 credit limit (R3)",
+    "sources": [
+     "course_descriptions.md#CS301",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R3"
+    ]
+   },
+   {
+    "code": "CS302",
+    "title": "Software Engineering",
+    "credits": 3,
+    "why": "broadens your study plan (topics: software, teamwork); relevance 0.10",
+    "eligibility": "level 3 <= your level 3 (R4); prerequisites CS202 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 9-12 credit limit (R3)",
+    "sources": [
+     "course_descriptions.md#CS302",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R3"
+    ]
+   },
+   {
+    "code": "CS205",
+    "title": "Operating Systems",
+    "credits": 3,
+    "why": "broadens your study plan (topics: systems); relevance 0.03",
+    "eligibility": "level 2 <= your level 3 (R4); prerequisites CS203 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 9-12 credit limit (R3)",
+    "sources": [
+     "course_descriptions.md#CS205",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R3"
+    ]
+   }
+  ],
+  "excluded": [
+   {
+    "code": "CS307",
+    "title": "Embedded Systems",
+    "reasons": [
+     "R3: adding CS307 (4 cr) would bring the load to 13 credit hours, above the probation maximum of 12"
+    ],
+    "rule_refs": [
+     "R3"
+    ],
+    "missing": [],
+    "sources": [
+     "course_descriptions.md#CS307",
+     "registration_rules.md#R3"
+    ]
+   },
+   {
+    "code": "CS304",
+    "title": "Image Processing and Computer Vision",
+    "reasons": [
+     "R7: time clash with CS301 (CS304 Sun 12:30-14:00 overlaps CS301 Sun 12:30-14:00; CS304 Tue 12:30-14:00 overlaps CS301 Tue 12:30-14:00)"
+    ],
+    "rule_refs": [
+     "R7"
+    ],
+    "missing": [],
+    "sources": [
+     "course_descriptions.md#CS304",
+     "registration_rules.md#R7"
+    ]
+   }
+  ],
+  "total_credits": 9,
+  "credit_limits": {
+   "min": 9,
+   "max": 12,
+   "rule": "R3",
+   "status": "probation"
+  },
+  "flags": [
+   "R3: desired credit load of 15 exceeds the maximum of 12 credit hours allowed"
+  ],
+  "retrieved": [
+   {
+    "text": "CS301 - Machine Learning. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, data.\nMachine Learning introduces supervised and unsupervised learning, including linear models, decision trees, support vector machines, and clustering. Students study model evaluation, overfitting, regularisation, and feature engineering. Practical work uses Python and scikit-learn on real datasets. The course ends with a project that compares several models on a problem chosen by the student. It is the entry point to deep learning and applied AI.",
+    "source": "course_descriptions.md#CS301",
+    "score": 0.2317,
+    "kind": "course",
+    "ref": "CS301"
+   },
+   {
+    "text": "MATH202 - Probability and Statistics. Level 2 course, 3 credit hours. Offered in: Spring. Prerequisites: MATH101. Meets: Sun 09:30-11:00; Tue 09:30-11:00. Topics: math, data, AI.\nProbability and Statistics introduces random variables, common distributions, expectation, and variance. It covers sampling, confidence intervals, hypothesis testing, and simple regression. Students practise analysing real datasets with Python. The course emphasises how to reason about uncertainty and noisy measurements. It is required for machine learning, data mining, and natural language processing.",
+    "source": "course_descriptions.md#MATH202",
+    "score": 0.1715,
+    "kind": "course",
+    "ref": "MATH202"
+   },
+   {
+    "text": "MATH201 - Linear Algebra. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: MATH101. Meets: Mon 11:00-12:30; Wed 11:00-12:30. Topics: math, AI.\nLinear Algebra covers vectors, matrices, systems of linear equations, determinants, and vector spaces. Students study eigenvalues, eigenvectors, orthogonality, and the singular value decomposition. Examples come from graphics, data compression, and machine learning. Students use Python libraries to verify results computed by hand. This course supplies the mathematical language of modern AI.",
+    "source": "course_descriptions.md#MATH201",
+    "score": 0.1546,
+    "kind": "course",
+    "ref": "MATH201"
+   },
+   {
+    "text": "CS310 - Introduction to Data Science. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS201, MATH202. Meets: Mon 14:00-15:30; Wed 14:00-15:30. Topics: data, python.\nIntroduction to Data Science teaches the full workflow from data collection and cleaning to analysis and communication. Students use Python, pandas, and visualisation libraries on real datasets. The course introduces notebooks, reproducibility, and basic predictive modelling. Group projects present findings to a non-technical audience. It suits students who want a practical entry into data-driven work.",
+    "source": "course_descriptions.md#CS310",
+    "score": 0.1373,
+    "kind": "course",
+    "ref": "CS310"
+   },
+   {
+    "text": "CS401 - Deep Learning. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS301. Meets: Mon 15:30-17:00; Wed 15:30-17:00. Topics: AI, deep learning.\nDeep Learning covers neural networks, backpropagation, convolutional and recurrent architectures, and transformers. Students train models with PyTorch or TensorFlow and learn practical techniques such as normalisation, augmentation, and transfer learning. The course discusses training at scale and deployment on limited hardware. A final project reproduces and extends a recent research result. It builds directly on machine learning.",
+    "source": "course_descriptions.md#CS401",
+    "score": 0.1255,
+    "kind": "course",
+    "ref": "CS401"
+   },
+   {
+    "text": "CS306 - Data Mining. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS202, MATH202. Meets: Sun 14:00-15:30; Tue 13:30-15:00. Topics: data, AI.\nData Mining covers methods for finding patterns in large datasets, including association rules, clustering, and anomaly detection. Students learn data preparation, feature selection, and the evaluation of mined patterns. Projects use SQL and Python on public datasets. The course also discusses privacy and ethical issues in the use of personal data. It leads to the big data analytics course.",
+    "source": "course_descriptions.md#CS306",
+    "score": 0.1179,
+    "kind": "course",
+    "ref": "CS306"
+   }
+  ],
+  "evidence": [
+   {
+    "text": "CS301 - Machine Learning. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, data.\nMachine Learning introduces supervised and unsupervised learning, including linear models, decision trees, support vector machines, and clustering. Students study model evaluation, overfitting, regularisation, and feature engineering. Practical work uses Python and scikit-learn on real datasets. The course ends with a project that compares several models on a problem chosen by the student. It is the entry point to deep learning and applied AI.",
+    "source": "course_descriptions.md#CS301",
+    "score": 0.2617,
+    "kind": "course",
+    "ref": "CS301"
+   },
+   {
+    "text": "Registration rule R4 - Level eligibility. A student may register only for courses whose level is equal to or lower than the student's own level. A student in level 3 may take level 1, 2, and 3 courses, but not level 4 courses. There are no exceptions to this rule.",
+    "source": "registration_rules.md#R4",
+    "score": null,
+    "kind": "rule",
+    "ref": "R4"
+   },
+   {
+    "text": "Registration rule R5 - Prerequisite policy. Every prerequisite listed for a course must be a passed course before the semester starts. A prerequisite cannot be taken at the same time as the course. Chained prerequisites apply in order, so a student must pass each course in the chain before the next one.",
+    "source": "registration_rules.md#R5",
+    "score": null,
+    "kind": "rule",
+    "ref": "R5"
+   },
+   {
+    "text": "Registration rule R6 - Offered-semester rule. A course may be registered only in a semester in which it is offered. The semesters in which a course is offered are listed in the catalog.",
+    "source": "registration_rules.md#R6",
+    "score": null,
+    "kind": "rule",
+    "ref": "R6"
+   },
+   {
+    "text": "Registration rule R7 - No time clashes. A student may not register for two courses whose meeting times overlap on the same day. Two meetings clash if one starts before the other ends. A meeting that ends exactly when another starts is not a clash.",
+    "source": "registration_rules.md#R7",
+    "score": null,
+    "kind": "rule",
+    "ref": "R7"
+   },
+   {
+    "text": "Registration rule R3 - Academic probation. A student with a cumulative GPA below 2.00 is on academic probation. A student on probation must register for at least 9 and at most 12 credit hours. R3 replaces both R1 and R2 for this student.",
+    "source": "registration_rules.md#R3",
+    "score": null,
+    "kind": "rule",
+    "ref": "R3"
+   },
+   {
+    "text": "CS302 - Software Engineering. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS202. Meets: Mon 12:30-14:00; Wed 12:30-14:00. Topics: software, teamwork.\nSoftware Engineering covers requirements, design, testing, and maintenance of larger software systems. Students work in teams using agile methods, issue tracking, and continuous integration. The course introduces UML modelling and code review practice. A semester project delivers a working product to a simulated client. It prepares students for the graduation project.",
+    "source": "course_descriptions.md#CS302",
+    "score": 0.0959,
+    "kind": "course",
+    "ref": "CS302"
+   },
+   {
+    "text": "CS205 - Operating Systems. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS203. Meets: Sun 11:00-12:30; Tue 11:00-12:30. Topics: systems.\nOperating Systems covers processes, threads, scheduling, synchronisation, memory management, and file systems. Students write programs that use system calls and concurrency primitives. The course explains deadlocks and how an operating system prevents or recovers from them. Labs use a Linux environment and a small teaching kernel. It leads to computer networks and cybersecurity.",
+    "source": "course_descriptions.md#CS205",
+    "score": 0.0342,
+    "kind": "course",
+    "ref": "CS205"
+   },
+   {
+    "text": "CS307 - Embedded Systems. Level 3 course, 4 credit hours. Offered in: Fall. Prerequisites: CS203. Meets: Mon 14:00-15:30; Wed 14:00-15:30. Topics: hardware, embedded, IoT.\nEmbedded Systems teaches the design of software for microcontroller-based devices. Topics include interrupts, timers, serial communication, sensor interfacing, and real-time scheduling. Weekly labs use ESP32 boards and common sensors. Students build a complete device that senses its environment and reports over a wireless link. The course suits students interested in robotics, IoT, and wearable devices.",
+    "source": "course_descriptions.md#CS307",
+    "score": null,
+    "kind": "course",
+    "ref": "CS307"
+   },
+   {
+    "text": "CS304 - Image Processing and Computer Vision. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, vision.\nImage Processing and Computer Vision covers filtering, edge detection, feature extraction, and geometric transformations. Students learn classical methods for object detection and tracking, and are introduced to convolutional neural networks. Programming work uses Python and OpenCV. A final project builds a simple vision application such as a lane detector or a document scanner. The course suits students interested in AI, robotics, and assistive technology.",
+    "source": "course_descriptions.md#CS304",
+    "score": null,
+    "kind": "course",
+    "ref": "CS304"
+   }
+  ],
+  "sources": [
+   "course_descriptions.md#CS301",
+   "registration_rules.md#R4",
+   "registration_rules.md#R5",
+   "registration_rules.md#R6",
+   "registration_rules.md#R7",
+   "registration_rules.md#R3",
+   "course_descriptions.md#CS302",
+   "course_descriptions.md#CS205",
+   "course_descriptions.md#CS307",
+   "course_descriptions.md#CS304"
+  ],
+  "summary": "Hi Salma, based on your interest in AI, data and the courses you have passed, these 3 course(s) (9 credit hours) are allowed for you this Fall:\n  * CS301 Machine Learning: matches your AI, data, python (topics: AI, data); relevance 0.26 [course_descriptions.md#CS301]\n  * CS302 Software Engineering: broadens your study plan (topics: software, teamwork); relevance 0.10 [course_descriptions.md#CS302]\n  * CS205 Operating Systems: broadens your study plan (topics: systems); relevance 0.03 [course_descriptions.md#CS205]\n  x CS307 not included: R3: adding CS307 (4 cr) would bring the load to 13 credit hours, above the probation maximum of 12 [registration_rules.md#R3]\n  x CS304 not included: R7: time clash with CS301 (CS304 Sun 12:30-14:00 overlaps CS301 Sun 12:30-14:00; CS304 Tue 12:30-14:00 overlaps CS301 Tue 12:30-14:00) [registration_rules.md#R7]\nPlease check: R3: desired credit load of 15 exceeds the maximum of 12 credit hours allowed",
+  "llm": "offline template"
+ },
+ "S04": {
+  "student": "S04",
+  "name": "Youssef Mostafa",
+  "mode": "requested",
+  "requested": [
+   "CS402",
+   "CS404",
+   "CS490",
+   "CS307",
+   "CS304",
+   "HUM401",
+   "CS204"
+  ],
+  "query": "security. security cybersecurity. big data. big data analytics data. python. sql. networking. level 4 course. offered in Fall",
+  "courses": [
+   {
+    "code": "CS402",
+    "title": "Cybersecurity",
+    "credits": 3,
+    "why": "matches your security (topics: security, systems); relevance 0.19",
+    "eligibility": "level 4 <= your level 4 (R4); prerequisites CS303 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)",
+    "sources": [
+     "course_descriptions.md#CS402",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R1"
+    ]
+   },
+   {
+    "code": "CS404",
+    "title": "Big Data Analytics",
+    "credits": 3,
+    "why": "matches your big data (topics: data, systems); relevance 0.32",
+    "eligibility": "level 4 <= your level 4 (R4); prerequisites CS306 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)",
+    "sources": [
+     "course_descriptions.md#CS404",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R1"
+    ]
+   },
+   {
+    "code": "CS490",
+    "title": "Graduation Project I",
+    "credits": 3,
+    "why": "broadens your study plan (topics: project, teamwork); relevance 0.08",
+    "eligibility": "level 4 <= your level 4 (R4); prerequisites CS302 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)",
+    "sources": [
+     "course_descriptions.md#CS490",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R1"
+    ]
+   },
+   {
+    "code": "CS307",
+    "title": "Embedded Systems",
+    "credits": 4,
+    "why": "broadens your study plan (topics: hardware, embedded, IoT); relevance 0.03",
+    "eligibility": "level 3 <= your level 4 (R4); prerequisites CS203 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)",
+    "sources": [
+     "course_descriptions.md#CS307",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R1"
+    ]
+   },
+   {
+    "code": "CS304",
+    "title": "Image Processing and Computer Vision",
+    "credits": 3,
+    "why": "matches your python (topics: AI, vision); relevance 0.03",
+    "eligibility": "level 3 <= your level 4 (R4); prerequisites CS201, MATH201 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)",
+    "sources": [
+     "course_descriptions.md#CS304",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R1"
+    ]
+   },
+   {
+    "code": "HUM401",
+    "title": "Professional Ethics",
+    "credits": 2,
+    "why": "broadens your study plan (topics: ethics, communication); relevance 0.08",
+    "eligibility": "level 4 <= your level 4 (R4); no prerequisites (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 12-18 credit limit (R1)",
+    "sources": [
+     "course_descriptions.md#HUM401",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R1"
+    ]
+   }
+  ],
+  "excluded": [
+   {
+    "code": "CS204",
+    "title": "Web Development",
+    "reasons": [
+     "R1: adding CS204 (3 cr) would bring the load to 21 credit hours, above the maximum of 18 (overload to 21 needs GPA >= 3.50, R2)"
+    ],
+    "rule_refs": [
+     "R1"
+    ],
+    "missing": [],
+    "sources": [
+     "course_descriptions.md#CS204",
+     "registration_rules.md#R1"
+    ]
+   }
+  ],
+  "total_credits": 18,
+  "credit_limits": {
+   "min": 12,
+   "max": 18,
+   "rule": "R1",
+   "status": "standard"
+  },
+  "flags": [
+   "R1: desired credit load of 21 exceeds the maximum of 18 credit hours allowed (overload to 21 needs GPA >= 3.50, R2)"
+  ],
+  "retrieved": [
+   {
+    "text": "CS404 - Big Data Analytics. Level 4 course, 3 credit hours. Offered in: Fall. Prerequisites: CS306. Meets: Mon 15:30-17:00; Wed 15:30-17:00. Topics: data, systems.\nBig Data Analytics studies the tools and architectures used to process data that is too large for a single machine. Topics include distributed file systems, MapReduce, Spark, and stream processing. Students run analyses on a cluster and tune them for performance. The course also covers data pipelines and data quality. It builds on data mining.",
+    "source": "course_descriptions.md#CS404",
+    "score": 0.2878,
+    "kind": "course",
+    "ref": "CS404"
+   },
+   {
+    "text": "CS306 - Data Mining. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS202, MATH202. Meets: Sun 14:00-15:30; Tue 13:30-15:00. Topics: data, AI.\nData Mining covers methods for finding patterns in large datasets, including association rules, clustering, and anomaly detection. Students learn data preparation, feature selection, and the evaluation of mined patterns. Projects use SQL and Python on public datasets. The course also discusses privacy and ethical issues in the use of personal data. It leads to the big data analytics course.",
+    "source": "course_descriptions.md#CS306",
+    "score": 0.193,
+    "kind": "course",
+    "ref": "CS306"
+   },
+   {
+    "text": "CS402 - Cybersecurity. Level 4 course, 3 credit hours. Offered in: Fall. Prerequisites: CS303. Meets: Sun 14:00-15:30; Tue 14:00-15:30. Topics: security, systems.\nCybersecurity introduces threats, vulnerabilities, cryptography, authentication, and secure system design. Students practise defensive techniques in controlled lab environments. Topics include web application security, network defence, and incident response. The course also covers the legal and ethical responsibilities of security professionals. It builds on the networks course.",
+    "source": "course_descriptions.md#CS402",
+    "score": 0.1639,
+    "kind": "course",
+    "ref": "CS402"
+   },
+   {
+    "text": "CS310 - Introduction to Data Science. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS201, MATH202. Meets: Mon 14:00-15:30; Wed 14:00-15:30. Topics: data, python.\nIntroduction to Data Science teaches the full workflow from data collection and cleaning to analysis and communication. Students use Python, pandas, and visualisation libraries on real datasets. The course introduces notebooks, reproducibility, and basic predictive modelling. Group projects present findings to a non-technical audience. It suits students who want a practical entry into data-driven work.",
+    "source": "course_descriptions.md#CS310",
+    "score": 0.0941,
+    "kind": "course",
+    "ref": "CS310"
+   },
+   {
+    "text": "Registration rule R6 - Offered-semester rule. A course may be registered only in a semester in which it is offered. The semesters in which a course is offered are listed in the catalog.",
+    "source": "registration_rules.md#R6",
+    "score": 0.0743,
+    "kind": "rule",
+    "ref": "R6"
+   },
+   {
+    "text": "CS201 - Data Structures and Algorithms. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS102. Meets: Sun 09:30-11:00; Tue 09:30-11:00. Topics: programming, algorithms.\nData Structures and Algorithms covers arrays, linked lists, stacks, queues, trees, hash tables, and graphs. Students analyse running time using Big-O notation and compare sorting and searching algorithms. The course introduces recursion, dynamic programming, and greedy methods. Programming assignments require efficient implementations and careful testing. It is a core prerequisite for machine learning, vision, and language processing courses.",
+    "source": "course_descriptions.md#CS201",
+    "score": 0.0715,
+    "kind": "course",
+    "ref": "CS201"
+   }
+  ],
+  "evidence": [
+   {
+    "text": "CS402 - Cybersecurity. Level 4 course, 3 credit hours. Offered in: Fall. Prerequisites: CS303. Meets: Sun 14:00-15:30; Tue 14:00-15:30. Topics: security, systems.\nCybersecurity introduces threats, vulnerabilities, cryptography, authentication, and secure system design. Students practise defensive techniques in controlled lab environments. Topics include web application security, network defence, and incident response. The course also covers the legal and ethical responsibilities of security professionals. It builds on the networks course.",
+    "source": "course_descriptions.md#CS402",
+    "score": 0.1939,
+    "kind": "course",
+    "ref": "CS402"
+   },
+   {
+    "text": "Registration rule R4 - Level eligibility. A student may register only for courses whose level is equal to or lower than the student's own level. A student in level 3 may take level 1, 2, and 3 courses, but not level 4 courses. There are no exceptions to this rule.",
+    "source": "registration_rules.md#R4",
+    "score": null,
+    "kind": "rule",
+    "ref": "R4"
+   },
+   {
+    "text": "Registration rule R5 - Prerequisite policy. Every prerequisite listed for a course must be a passed course before the semester starts. A prerequisite cannot be taken at the same time as the course. Chained prerequisites apply in order, so a student must pass each course in the chain before the next one.",
+    "source": "registration_rules.md#R5",
+    "score": null,
+    "kind": "rule",
+    "ref": "R5"
+   },
+   {
+    "text": "Registration rule R6 - Offered-semester rule. A course may be registered only in a semester in which it is offered. The semesters in which a course is offered are listed in the catalog.",
+    "source": "registration_rules.md#R6",
+    "score": null,
+    "kind": "rule",
+    "ref": "R6"
+   },
+   {
+    "text": "Registration rule R7 - No time clashes. A student may not register for two courses whose meeting times overlap on the same day. Two meetings clash if one starts before the other ends. A meeting that ends exactly when another starts is not a clash.",
+    "source": "registration_rules.md#R7",
+    "score": null,
+    "kind": "rule",
+    "ref": "R7"
+   },
+   {
+    "text": "Registration rule R1 - Credit-hour range. In a regular semester a student must register for at least 12 and at most 18 credit hours. A semester load below 12 credit hours is not allowed unless rule R3 applies. The limits of R2 and R3 replace the maximum of 18 for the students they describe.",
+    "source": "registration_rules.md#R1",
+    "score": null,
+    "kind": "rule",
+    "ref": "R1"
+   },
+   {
+    "text": "CS404 - Big Data Analytics. Level 4 course, 3 credit hours. Offered in: Fall. Prerequisites: CS306. Meets: Mon 15:30-17:00; Wed 15:30-17:00. Topics: data, systems.\nBig Data Analytics studies the tools and architectures used to process data that is too large for a single machine. Topics include distributed file systems, MapReduce, Spark, and stream processing. Students run analyses on a cluster and tune them for performance. The course also covers data pipelines and data quality. It builds on data mining.",
+    "source": "course_descriptions.md#CS404",
+    "score": 0.3178,
+    "kind": "course",
+    "ref": "CS404"
+   },
+   {
+    "text": "CS490 - Graduation Project I. Level 4 course, 3 credit hours. Offered in: Fall. Prerequisites: CS302. Meets: Thu 14:00-17:00. Topics: project, teamwork.\nGraduation Project I is the first half of a two-semester capstone project done in a small team. Students choose a topic, review the literature, define requirements, and produce a design and a working prototype. Progress is evaluated through proposals, reports, and a mid-year presentation. A faculty supervisor guides each team. The project continues in Graduation Project II.",
+    "source": "course_descriptions.md#CS490",
+    "score": 0.0792,
+    "kind": "course",
+    "ref": "CS490"
+   },
+   {
+    "text": "CS307 - Embedded Systems. Level 3 course, 4 credit hours. Offered in: Fall. Prerequisites: CS203. Meets: Mon 14:00-15:30; Wed 14:00-15:30. Topics: hardware, embedded, IoT.\nEmbedded Systems teaches the design of software for microcontroller-based devices. Topics include interrupts, timers, serial communication, sensor interfacing, and real-time scheduling. Weekly labs use ESP32 boards and common sensors. Students build a complete device that senses its environment and reports over a wireless link. The course suits students interested in robotics, IoT, and wearable devices.",
+    "source": "course_descriptions.md#CS307",
+    "score": 0.0262,
+    "kind": "course",
+    "ref": "CS307"
+   },
+   {
+    "text": "CS304 - Image Processing and Computer Vision. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, vision.\nImage Processing and Computer Vision covers filtering, edge detection, feature extraction, and geometric transformations. Students learn classical methods for object detection and tracking, and are introduced to convolutional neural networks. Programming work uses Python and OpenCV. A final project builds a simple vision application such as a lane detector or a document scanner. The course suits students interested in AI, robotics, and assistive technology.",
+    "source": "course_descriptions.md#CS304",
+    "score": 0.0271,
+    "kind": "course",
+    "ref": "CS304"
+   },
+   {
+    "text": "HUM401 - Professional Ethics. Level 4 course, 2 credit hours. Offered in: Fall, Spring. Prerequisites: none. Meets: Sun 15:30-17:00; Tue 15:30-17:00. Topics: ethics, communication.\nProfessional Ethics examines ethical issues faced by engineers and computer scientists. Topics include privacy, fairness in algorithms, intellectual property, safety, and responsible use of AI. Students analyse real case studies and write short position papers. The course also covers professional codes of conduct and workplace responsibilities. It is open to final-year students in any semester.",
+    "source": "course_descriptions.md#HUM401",
+    "score": 0.0757,
+    "kind": "course",
+    "ref": "HUM401"
+   },
+   {
+    "text": "CS204 - Web Development. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS102. Meets: Thu 11:00-14:00. Topics: web, software.\nWeb Development teaches the building of dynamic websites using HTML, CSS, JavaScript, and a server-side framework. Students learn about HTTP, REST APIs, sessions, and basic web security. The course includes responsive design and deployment to a cloud host. Each student builds a complete web application connected to a database. It is a useful foundation for mobile development and software engineering projects.",
+    "source": "course_descriptions.md#CS204",
+    "score": null,
+    "kind": "course",
+    "ref": "CS204"
+   }
+  ],
+  "sources": [
+   "course_descriptions.md#CS402",
+   "registration_rules.md#R4",
+   "registration_rules.md#R5",
+   "registration_rules.md#R6",
+   "registration_rules.md#R7",
+   "registration_rules.md#R1",
+   "course_descriptions.md#CS404",
+   "course_descriptions.md#CS490",
+   "course_descriptions.md#CS307",
+   "course_descriptions.md#CS304",
+   "course_descriptions.md#HUM401",
+   "course_descriptions.md#CS204"
+  ],
+  "summary": "Hi Youssef, based on your interest in security, big data and the courses you have passed, these 6 course(s) (18 credit hours) are allowed for you this Fall:\n  * CS402 Cybersecurity: matches your security (topics: security, systems); relevance 0.19 [course_descriptions.md#CS402]\n  * CS404 Big Data Analytics: matches your big data (topics: data, systems); relevance 0.32 [course_descriptions.md#CS404]\n  * CS490 Graduation Project I: broadens your study plan (topics: project, teamwork); relevance 0.08 [course_descriptions.md#CS490]\n  * CS307 Embedded Systems: broadens your study plan (topics: hardware, embedded, IoT); relevance 0.03 [course_descriptions.md#CS307]\n  * CS304 Image Processing and Computer Vision: matches your python (topics: AI, vision); relevance 0.03 [course_descriptions.md#CS304]\n  * HUM401 Professional Ethics: broadens your study plan (topics: ethics, communication); relevance 0.08 [course_descriptions.md#HUM401]\n  x CS204 not included: R1: adding CS204 (3 cr) would bring the load to 21 credit hours, above the maximum of 18 (overload to 21 needs GPA >= 3.50, R2) [registration_rules.md#R1]\nPlease check: R1: desired credit load of 21 exceeds the maximum of 18 credit hours allowed (overload to 21 needs GPA >= 3.50, R2)",
+  "llm": "offline template"
+ },
+ "S05": {
+  "student": "S05",
+  "name": "Laila Ibrahim",
+  "mode": "requested",
+  "requested": [
+   "CS305",
+   "CS306",
+   "CS303",
+   "CS310",
+   "CS401",
+   "CS403",
+   "HUM401"
+  ],
+  "query": "NLP. natural language processing NLP text. deep learning. mobile apps. mobile application development android. python. pytorch. android. level 4 course. offered in Spring",
+  "courses": [
+   {
+    "code": "CS305",
+    "title": "Natural Language Processing",
+    "credits": 3,
+    "why": "matches your NLP, python (topics: AI, NLP); relevance 0.24",
+    "eligibility": "level 3 <= your level 4 (R4); prerequisites CS201, MATH202 passed (R5); offered in Spring (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)",
+    "sources": [
+     "course_descriptions.md#CS305",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R2"
+    ]
+   },
+   {
+    "code": "CS303",
+    "title": "Computer Networks",
+    "credits": 3,
+    "why": "broadens your study plan (topics: systems, networking); relevance 0.02",
+    "eligibility": "level 3 <= your level 4 (R4); prerequisites CS205 passed (R5); offered in Spring (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)",
+    "sources": [
+     "course_descriptions.md#CS303",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R2"
+    ]
+   },
+   {
+    "code": "CS310",
+    "title": "Introduction to Data Science",
+    "credits": 3,
+    "why": "matches your python (topics: data, python); relevance 0.03",
+    "eligibility": "level 3 <= your level 4 (R4); prerequisites CS201, MATH202 passed (R5); offered in Spring (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)",
+    "sources": [
+     "course_descriptions.md#CS310",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R2"
+    ]
+   },
+   {
+    "code": "CS401",
+    "title": "Deep Learning",
+    "credits": 3,
+    "why": "matches your deep learning, pytorch (topics: AI, deep learning); relevance 0.19",
+    "eligibility": "level 4 <= your level 4 (R4); prerequisites CS301 passed (R5); offered in Spring (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)",
+    "sources": [
+     "course_descriptions.md#CS401",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R2"
+    ]
+   },
+   {
+    "code": "CS403",
+    "title": "Mobile Application Development",
+    "credits": 3,
+    "why": "matches your android (topics: mobile, software); relevance 0.29",
+    "eligibility": "level 4 <= your level 4 (R4); prerequisites CS204, CS202 passed (R5); offered in Spring (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)",
+    "sources": [
+     "course_descriptions.md#CS403",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R2"
+    ]
+   },
+   {
+    "code": "HUM401",
+    "title": "Professional Ethics",
+    "credits": 2,
+    "why": "broadens your study plan (topics: ethics, communication); relevance 0.06",
+    "eligibility": "level 4 <= your level 4 (R4); no prerequisites (R5); offered in Spring (R6); no time clash with the other courses (R7); fits the 12-21 credit limit (R2)",
+    "sources": [
+     "course_descriptions.md#HUM401",
+     "registration_rules.md#R4",
+     "registration_rules.md#R5",
+     "registration_rules.md#R6",
+     "registration_rules.md#R7",
+     "registration_rules.md#R2"
+    ]
+   }
+  ],
+  "excluded": [
+   {
+    "code": "CS306",
+    "title": "Data Mining",
+    "reasons": [
+     "R7: time clash with CS305 (CS306 Tue 13:30-15:00 overlaps CS305 Tue 12:30-14:00)"
+    ],
+    "rule_refs": [
+     "R7"
+    ],
+    "missing": [],
+    "sources": [
+     "course_descriptions.md#CS306",
+     "registration_rules.md#R7"
+    ]
+   }
+  ],
+  "total_credits": 17,
+  "credit_limits": {
+   "min": 12,
+   "max": 21,
+   "rule": "R2",
+   "status": "overload"
+  },
+  "flags": [],
+  "retrieved": [
+   {
+    "text": "CS403 - Mobile Application Development. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS204, CS202. Meets: Thu 11:00-14:00. Topics: mobile, software.\nMobile Application Development teaches the design and implementation of apps for Android and cross-platform frameworks. Students learn user interface design, local storage, networking, and the use of device sensors. Each team builds and publishes a working app that connects to a back-end service. The course covers testing, accessibility, and app store requirements. It combines the web and database courses into one practical project.",
+    "source": "course_descriptions.md#CS403",
+    "score": 0.2577,
+    "kind": "course",
+    "ref": "CS403"
+   },
+   {
+    "text": "CS305 - Natural Language Processing. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, NLP.\nNatural Language Processing introduces tokenisation, language models, text classification, and sequence labelling. Students study word embeddings, attention, and the transformer architecture at a practical level. Assignments use Python and open-source libraries on English and Arabic text. The course discusses evaluation, bias, and the handling of multilingual and code-switched text. It suits students interested in chatbots, search, and language technology.",
+    "source": "course_descriptions.md#CS305",
+    "score": 0.2363,
+    "kind": "course",
+    "ref": "CS305"
+   },
+   {
+    "text": "CS401 - Deep Learning. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS301. Meets: Mon 15:30-17:00; Wed 15:30-17:00. Topics: AI, deep learning.\nDeep Learning covers neural networks, backpropagation, convolutional and recurrent architectures, and transformers. Students train models with PyTorch or TensorFlow and learn practical techniques such as normalisation, augmentation, and transfer learning. The course discusses training at scale and deployment on limited hardware. A final project reproduces and extends a recent research result. It builds directly on machine learning.",
+    "source": "course_descriptions.md#CS401",
+    "score": 0.1608,
+    "kind": "course",
+    "ref": "CS401"
+   },
+   {
+    "text": "MATH202 - Probability and Statistics. Level 2 course, 3 credit hours. Offered in: Spring. Prerequisites: MATH101. Meets: Sun 09:30-11:00; Tue 09:30-11:00. Topics: math, data, AI.\nProbability and Statistics introduces random variables, common distributions, expectation, and variance. It covers sampling, confidence intervals, hypothesis testing, and simple regression. Students practise analysing real datasets with Python. The course emphasises how to reason about uncertainty and noisy measurements. It is required for machine learning, data mining, and natural language processing.",
+    "source": "course_descriptions.md#MATH202",
+    "score": 0.1106,
+    "kind": "course",
+    "ref": "MATH202"
+   },
+   {
+    "text": "CS202 - Databases. Level 2 course, 3 credit hours. Offered in: Spring. Prerequisites: CS102. Meets: Mon 11:00-12:30; Wed 11:00-12:30. Topics: data, software.\nDatabases introduces relational modelling, SQL, normalisation, and transaction processing. Students design a schema, write queries, and optimise them using indexes. The course also gives a short introduction to NoSQL stores and when they are useful. A term project connects a database to a small application. It supports courses in software engineering, data mining, and mobile development.",
+    "source": "course_descriptions.md#CS202",
+    "score": 0.082,
+    "kind": "course",
+    "ref": "CS202"
+   },
+   {
+    "text": "CS301 - Machine Learning. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, data.\nMachine Learning introduces supervised and unsupervised learning, including linear models, decision trees, support vector machines, and clustering. Students study model evaluation, overfitting, regularisation, and feature engineering. Practical work uses Python and scikit-learn on real datasets. The course ends with a project that compares several models on a problem chosen by the student. It is the entry point to deep learning and applied AI.",
+    "source": "course_descriptions.md#CS301",
+    "score": 0.0751,
+    "kind": "course",
+    "ref": "CS301"
+   }
+  ],
+  "evidence": [
+   {
+    "text": "CS305 - Natural Language Processing. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, NLP.\nNatural Language Processing introduces tokenisation, language models, text classification, and sequence labelling. Students study word embeddings, attention, and the transformer architecture at a practical level. Assignments use Python and open-source libraries on English and Arabic text. The course discusses evaluation, bias, and the handling of multilingual and code-switched text. It suits students interested in chatbots, search, and language technology.",
+    "source": "course_descriptions.md#CS305",
+    "score": 0.2363,
+    "kind": "course",
+    "ref": "CS305"
+   },
+   {
+    "text": "Registration rule R4 - Level eligibility. A student may register only for courses whose level is equal to or lower than the student's own level. A student in level 3 may take level 1, 2, and 3 courses, but not level 4 courses. There are no exceptions to this rule.",
+    "source": "registration_rules.md#R4",
+    "score": null,
+    "kind": "rule",
+    "ref": "R4"
+   },
+   {
+    "text": "Registration rule R5 - Prerequisite policy. Every prerequisite listed for a course must be a passed course before the semester starts. A prerequisite cannot be taken at the same time as the course. Chained prerequisites apply in order, so a student must pass each course in the chain before the next one.",
+    "source": "registration_rules.md#R5",
+    "score": null,
+    "kind": "rule",
+    "ref": "R5"
+   },
+   {
+    "text": "Registration rule R6 - Offered-semester rule. A course may be registered only in a semester in which it is offered. The semesters in which a course is offered are listed in the catalog.",
+    "source": "registration_rules.md#R6",
+    "score": null,
+    "kind": "rule",
+    "ref": "R6"
+   },
+   {
+    "text": "Registration rule R7 - No time clashes. A student may not register for two courses whose meeting times overlap on the same day. Two meetings clash if one starts before the other ends. A meeting that ends exactly when another starts is not a clash.",
+    "source": "registration_rules.md#R7",
+    "score": null,
+    "kind": "rule",
+    "ref": "R7"
+   },
+   {
+    "text": "Registration rule R2 - Overload for high GPA. A student with a cumulative GPA of 3.50 or higher may register for up to 21 credit hours. The minimum of 12 credit hours from R1 still applies. A GPA below 3.50 gives no overload, and the maximum stays at 18 credit hours.",
+    "source": "registration_rules.md#R2",
+    "score": null,
+    "kind": "rule",
+    "ref": "R2"
+   },
+   {
+    "text": "CS303 - Computer Networks. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS205. Meets: Mon 12:30-14:00; Wed 12:30-14:00. Topics: systems, networking.\nComputer Networks studies how data moves across the internet using the layered protocol model. Topics include TCP and IP, routing, DNS, wireless links, and network programming with sockets. Labs use packet capture tools to observe real traffic. Students configure small virtual networks and measure their performance. The course is a prerequisite for cybersecurity.",
+    "source": "course_descriptions.md#CS303",
+    "score": 0.018,
+    "kind": "course",
+    "ref": "CS303"
+   },
+   {
+    "text": "CS310 - Introduction to Data Science. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS201, MATH202. Meets: Mon 14:00-15:30; Wed 14:00-15:30. Topics: data, python.\nIntroduction to Data Science teaches the full workflow from data collection and cleaning to analysis and communication. Students use Python, pandas, and visualisation libraries on real datasets. The course introduces notebooks, reproducibility, and basic predictive modelling. Group projects present findings to a non-technical audience. It suits students who want a practical entry into data-driven work.",
+    "source": "course_descriptions.md#CS310",
+    "score": 0.0316,
+    "kind": "course",
+    "ref": "CS310"
+   },
+   {
+    "text": "CS401 - Deep Learning. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS301. Meets: Mon 15:30-17:00; Wed 15:30-17:00. Topics: AI, deep learning.\nDeep Learning covers neural networks, backpropagation, convolutional and recurrent architectures, and transformers. Students train models with PyTorch or TensorFlow and learn practical techniques such as normalisation, augmentation, and transfer learning. The course discusses training at scale and deployment on limited hardware. A final project reproduces and extends a recent research result. It builds directly on machine learning.",
+    "source": "course_descriptions.md#CS401",
+    "score": 0.1908,
+    "kind": "course",
+    "ref": "CS401"
+   },
+   {
+    "text": "CS403 - Mobile Application Development. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS204, CS202. Meets: Thu 11:00-14:00. Topics: mobile, software.\nMobile Application Development teaches the design and implementation of apps for Android and cross-platform frameworks. Students learn user interface design, local storage, networking, and the use of device sensors. Each team builds and publishes a working app that connects to a back-end service. The course covers testing, accessibility, and app store requirements. It combines the web and database courses into one practical project.",
+    "source": "course_descriptions.md#CS403",
+    "score": 0.2877,
+    "kind": "course",
+    "ref": "CS403"
+   },
+   {
+    "text": "HUM401 - Professional Ethics. Level 4 course, 2 credit hours. Offered in: Fall, Spring. Prerequisites: none. Meets: Sun 15:30-17:00; Tue 15:30-17:00. Topics: ethics, communication.\nProfessional Ethics examines ethical issues faced by engineers and computer scientists. Topics include privacy, fairness in algorithms, intellectual property, safety, and responsible use of AI. Students analyse real case studies and write short position papers. The course also covers professional codes of conduct and workplace responsibilities. It is open to final-year students in any semester.",
+    "source": "course_descriptions.md#HUM401",
+    "score": 0.0636,
+    "kind": "course",
+    "ref": "HUM401"
+   },
+   {
+    "text": "CS306 - Data Mining. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS202, MATH202. Meets: Sun 14:00-15:30; Tue 13:30-15:00. Topics: data, AI.\nData Mining covers methods for finding patterns in large datasets, including association rules, clustering, and anomaly detection. Students learn data preparation, feature selection, and the evaluation of mined patterns. Projects use SQL and Python on public datasets. The course also discusses privacy and ethical issues in the use of personal data. It leads to the big data analytics course.",
+    "source": "course_descriptions.md#CS306",
+    "score": null,
+    "kind": "course",
+    "ref": "CS306"
+   }
+  ],
+  "sources": [
+   "course_descriptions.md#CS305",
+   "registration_rules.md#R4",
+   "registration_rules.md#R5",
+   "registration_rules.md#R6",
+   "registration_rules.md#R7",
+   "registration_rules.md#R2",
+   "course_descriptions.md#CS303",
+   "course_descriptions.md#CS310",
+   "course_descriptions.md#CS401",
+   "course_descriptions.md#CS403",
+   "course_descriptions.md#HUM401",
+   "course_descriptions.md#CS306"
+  ],
+  "summary": "Hi Laila, based on your interest in NLP, deep learning, mobile apps and the courses you have passed, these 6 course(s) (17 credit hours) are allowed for you this Spring:\n  * CS305 Natural Language Processing: matches your NLP, python (topics: AI, NLP); relevance 0.24 [course_descriptions.md#CS305]\n  * CS303 Computer Networks: broadens your study plan (topics: systems, networking); relevance 0.02 [course_descriptions.md#CS303]\n  * CS310 Introduction to Data Science: matches your python (topics: data, python); relevance 0.03 [course_descriptions.md#CS310]\n  * CS401 Deep Learning: matches your deep learning, pytorch (topics: AI, deep learning); relevance 0.19 [course_descriptions.md#CS401]\n  * CS403 Mobile Application Development: matches your android (topics: mobile, software); relevance 0.29 [course_descriptions.md#CS403]\n  * HUM401 Professional Ethics: broadens your study plan (topics: ethics, communication); relevance 0.06 [course_descriptions.md#HUM401]\n  x CS306 not included: R7: time clash with CS305 (CS306 Tue 13:30-15:00 overlaps CS305 Tue 12:30-14:00) [registration_rules.md#R7]",
+  "llm": "offline template"
+ },
+ "S06": {
+  "student": "S06",
+  "name": "Karim Samir",
+  "mode": "requested",
+  "requested": [
+   "CS101",
+   "CS201",
+   "CS204",
+   "XYZ123"
+  ],
+  "query": "web. web development websites. offered in Fall",
+  "courses": [],
+  "excluded": [
+   {
+    "code": "CS101",
+    "title": "Introduction to Programming",
+    "reasons": [
+     "R8: CS101 is already in the student's passed courses",
+     "R9: student level is missing, so level eligibility (R4) of CS101 cannot be verified"
+    ],
+    "rule_refs": [
+     "R8",
+     "R9"
+    ],
+    "missing": [],
+    "sources": [
+     "course_descriptions.md#CS101",
+     "registration_rules.md#R8",
+     "registration_rules.md#R9"
+    ]
+   },
+   {
+    "code": "CS201",
+    "title": "Data Structures and Algorithms",
+    "reasons": [
+     "R9: student level is missing, so level eligibility (R4) of CS201 cannot be verified"
+    ],
+    "rule_refs": [
+     "R9"
+    ],
+    "missing": [],
+    "sources": [
+     "course_descriptions.md#CS201",
+     "registration_rules.md#R9"
+    ]
+   },
+   {
+    "code": "CS204",
+    "title": "Web Development",
+    "reasons": [
+     "R9: student level is missing, so level eligibility (R4) of CS204 cannot be verified"
+    ],
+    "rule_refs": [
+     "R9"
+    ],
+    "missing": [],
+    "sources": [
+     "course_descriptions.md#CS204",
+     "registration_rules.md#R9"
+    ]
+   },
+   {
+    "code": "XYZ123",
+    "title": "(not in catalog)",
+    "reasons": [
+     "R9: course code XYZ123 is not in the catalog, so eligibility cannot be verified"
+    ],
+    "rule_refs": [
+     "R9"
+    ],
+    "missing": [],
+    "sources": [
+     "registration_rules.md#R9"
+    ]
+   }
+  ],
+  "total_credits": 0,
+  "credit_limits": {
+   "min": 12,
+   "max": 18,
+   "rule": "R1",
+   "status": "standard"
+  },
+  "flags": [
+   "R9: missing field 'level' - level eligibility (R4) cannot be verified",
+   "R9: unknown course code(s) in 'passed': CS999 (not in the catalog)",
+   "R9: missing field 'desired_credits' - the preferred credit load is unknown",
+   "R1: total of 0 credit hours is below the minimum of 12"
+  ],
+  "retrieved": [
+   {
+    "text": "CS204 - Web Development. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS102. Meets: Thu 11:00-14:00. Topics: web, software.\nWeb Development teaches the building of dynamic websites using HTML, CSS, JavaScript, and a server-side framework. Students learn about HTTP, REST APIs, sessions, and basic web security. The course includes responsive design and deployment to a cloud host. Each student builds a complete web application connected to a database. It is a useful foundation for mobile development and software engineering projects.",
+    "source": "course_descriptions.md#CS204",
+    "score": 0.3506,
+    "kind": "course",
+    "ref": "CS204"
+   },
+   {
+    "text": "CS403 - Mobile Application Development. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS204, CS202. Meets: Thu 11:00-14:00. Topics: mobile, software.\nMobile Application Development teaches the design and implementation of apps for Android and cross-platform frameworks. Students learn user interface design, local storage, networking, and the use of device sensors. Each team builds and publishes a working app that connects to a back-end service. The course covers testing, accessibility, and app store requirements. It combines the web and database courses into one practical project.",
+    "source": "course_descriptions.md#CS403",
+    "score": 0.107,
+    "kind": "course",
+    "ref": "CS403"
+   },
+   {
+    "text": "CS402 - Cybersecurity. Level 4 course, 3 credit hours. Offered in: Fall. Prerequisites: CS303. Meets: Sun 14:00-15:30; Tue 14:00-15:30. Topics: security, systems.\nCybersecurity introduces threats, vulnerabilities, cryptography, authentication, and secure system design. Students practise defensive techniques in controlled lab environments. Topics include web application security, network defence, and incident response. The course also covers the legal and ethical responsibilities of security professionals. It builds on the networks course.",
+    "source": "course_descriptions.md#CS402",
+    "score": 0.082,
+    "kind": "course",
+    "ref": "CS402"
+   },
+   {
+    "text": "CS202 - Databases. Level 2 course, 3 credit hours. Offered in: Spring. Prerequisites: CS102. Meets: Mon 11:00-12:30; Wed 11:00-12:30. Topics: data, software.\nDatabases introduces relational modelling, SQL, normalisation, and transaction processing. Students design a schema, write queries, and optimise them using indexes. The course also gives a short introduction to NoSQL stores and when they are useful. A term project connects a database to a small application. It supports courses in software engineering, data mining, and mobile development.",
+    "source": "course_descriptions.md#CS202",
+    "score": 0.038,
+    "kind": "course",
+    "ref": "CS202"
+   },
+   {
+    "text": "CS490 - Graduation Project I. Level 4 course, 3 credit hours. Offered in: Fall. Prerequisites: CS302. Meets: Thu 14:00-17:00. Topics: project, teamwork.\nGraduation Project I is the first half of a two-semester capstone project done in a small team. Students choose a topic, review the literature, define requirements, and produce a design and a working prototype. Progress is evaluated through proposals, reports, and a mid-year presentation. A faculty supervisor guides each team. The project continues in Graduation Project II.",
+    "source": "course_descriptions.md#CS490",
+    "score": 0.0253,
+    "kind": "course",
+    "ref": "CS490"
+   },
+   {
+    "text": "CS205 - Operating Systems. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS203. Meets: Sun 11:00-12:30; Tue 11:00-12:30. Topics: systems.\nOperating Systems covers processes, threads, scheduling, synchronisation, memory management, and file systems. Students write programs that use system calls and concurrency primitives. The course explains deadlocks and how an operating system prevents or recovers from them. Labs use a Linux environment and a small teaching kernel. It leads to computer networks and cybersecurity.",
+    "source": "course_descriptions.md#CS205",
+    "score": 0.025,
+    "kind": "course",
+    "ref": "CS205"
+   }
+  ],
+  "evidence": [
+   {
+    "text": "CS101 - Introduction to Programming. Level 1 course, 3 credit hours. Offered in: Fall. Prerequisites: none. Meets: Sun 08:00-09:30; Tue 08:00-09:30. Topics: programming, python.\nThis course introduces programming using Python for students with no prior experience. It covers variables, control flow, functions, lists, dictionaries, and file handling. Students learn to break a problem into steps and to test and debug their own code. Weekly lab exercises build up to a small final project such as a text-based game or a data summarizer. The course is the entry point to every computing track in the program.",
+    "source": "course_descriptions.md#CS101",
+    "score": null,
+    "kind": "course",
+    "ref": "CS101"
+   },
+   {
+    "text": "Registration rule R8 - No retaking passed courses. A student may not register again for a course that is already in the student's list of passed courses.",
+    "source": "registration_rules.md#R8",
+    "score": null,
+    "kind": "rule",
+    "ref": "R8"
+   },
+   {
+    "text": "Registration rule R9 - Missing or unknown information. If a required item is missing from the student record (level, GPA, semester, or the list of passed courses), or if a course code is not in the catalog, the advisor must flag the problem. The advisor must not guess the missing value. A course whose eligibility depends on missing information is not recommended until the information is supplied.",
+    "source": "registration_rules.md#R9",
+    "score": null,
+    "kind": "rule",
+    "ref": "R9"
+   },
+   {
+    "text": "CS201 - Data Structures and Algorithms. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS102. Meets: Sun 09:30-11:00; Tue 09:30-11:00. Topics: programming, algorithms.\nData Structures and Algorithms covers arrays, linked lists, stacks, queues, trees, hash tables, and graphs. Students analyse running time using Big-O notation and compare sorting and searching algorithms. The course introduces recursion, dynamic programming, and greedy methods. Programming assignments require efficient implementations and careful testing. It is a core prerequisite for machine learning, vision, and language processing courses.",
+    "source": "course_descriptions.md#CS201",
+    "score": null,
+    "kind": "course",
+    "ref": "CS201"
+   },
+   {
+    "text": "CS204 - Web Development. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS102. Meets: Thu 11:00-14:00. Topics: web, software.\nWeb Development teaches the building of dynamic websites using HTML, CSS, JavaScript, and a server-side framework. Students learn about HTTP, REST APIs, sessions, and basic web security. The course includes responsive design and deployment to a cloud host. Each student builds a complete web application connected to a database. It is a useful foundation for mobile development and software engineering projects.",
+    "source": "course_descriptions.md#CS204",
+    "score": null,
+    "kind": "course",
+    "ref": "CS204"
+   },
+   {
+    "text": "Registration rule R1 - Credit-hour range. In a regular semester a student must register for at least 12 and at most 18 credit hours. A semester load below 12 credit hours is not allowed unless rule R3 applies. The limits of R2 and R3 replace the maximum of 18 for the students they describe.",
+    "source": "registration_rules.md#R1",
+    "score": null,
+    "kind": "rule",
+    "ref": "R1"
+   }
+  ],
+  "sources": [
+   "course_descriptions.md#CS101",
+   "registration_rules.md#R8",
+   "registration_rules.md#R9",
+   "course_descriptions.md#CS201",
+   "course_descriptions.md#CS204",
+   "registration_rules.md#R1"
+  ],
+  "summary": "Hi Karim, I cannot recommend any course yet.\n  x CS101 not included: R8: CS101 is already in the student's passed courses; R9: student level is missing, so level eligibility (R4) of CS101 cannot be verified [registration_rules.md#R8] [registration_rules.md#R9]\n  x CS201 not included: R9: student level is missing, so level eligibility (R4) of CS201 cannot be verified [registration_rules.md#R9]\n  x CS204 not included: R9: student level is missing, so level eligibility (R4) of CS204 cannot be verified [registration_rules.md#R9]\n  x XYZ123 not included: R9: course code XYZ123 is not in the catalog, so eligibility cannot be verified [registration_rules.md#R9]\nPlease check: R9: missing field 'level' - level eligibility (R4) cannot be verified | R9: unknown course code(s) in 'passed': CS999 (not in the catalog) | R9: missing field 'desired_credits' - the preferred credit load is unknown | R1: total of 0 credit hours is below the minimum of 12",
+  "llm": "offline template"
+ }
+}

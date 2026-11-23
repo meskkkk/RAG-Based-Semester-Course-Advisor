@@ -1,0 +1,68 @@
+==========================================================================================
+S06 - MISSING DATA (level missing, desired_credits missing, unknown passed code CS999)
+==========================================================================================
+INPUT PROFILE
+{
+ "id": "S06",
+ "name": "Karim Samir",
+ "level": null,
+ "gpa": 3.0,
+ "passed": [
+  "CS101",
+  "CS102",
+  "MATH101",
+  "CS999"
+ ],
+ "skills": [],
+ "interests": [
+  "web"
+ ],
+ "desired_credits": null,
+ "semester": "Fall"
+}
+
+STUDENT S06 - Karim Samir   (mode: requested, LLM: offline template)
+Requested courses: CS101, CS201, CS204, XYZ123
+Search query: web. web development websites. offered in Fall
+
+RETRIEVED EVIDENCE (top passages for this student):
+  [0.351] course_descriptions.md#CS204: CS204 - Web Development. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS102. Meets: Thu 11:00-14:00. Topics: web, software. Web Development teaches the building of dynamic websites using HTML, CSS, Ja...
+  [0.107] course_descriptions.md#CS403: CS403 - Mobile Application Development. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS204, CS202. Meets: Thu 11:00-14:00. Topics: mobile, software. Mobile Application Development teaches the design...
+  [0.082] course_descriptions.md#CS402: CS402 - Cybersecurity. Level 4 course, 3 credit hours. Offered in: Fall. Prerequisites: CS303. Meets: Sun 14:00-15:30; Tue 14:00-15:30. Topics: security, systems. Cybersecurity introduces threats, vulnerabilities, crypto...
+  [0.038] course_descriptions.md#CS202: CS202 - Databases. Level 2 course, 3 credit hours. Offered in: Spring. Prerequisites: CS102. Meets: Mon 11:00-12:30; Wed 11:00-12:30. Topics: data, software. Databases introduces relational modelling, SQL, normalisation,...
+  [0.025] course_descriptions.md#CS490: CS490 - Graduation Project I. Level 4 course, 3 credit hours. Offered in: Fall. Prerequisites: CS302. Meets: Thu 14:00-17:00. Topics: project, teamwork. Graduation Project I is the first half of a two-semester capstone p...
+  [0.025] course_descriptions.md#CS205: CS205 - Operating Systems. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: CS203. Meets: Sun 11:00-12:30; Tue 11:00-12:30. Topics: systems. Operating Systems covers processes, threads, scheduling, synchr...
+
+RECOMMENDED COURSES  (total 0 credit hours; allowed 12-18, R1 standard)
+  (none)
+
+EXCLUDED COURSES
+  - CS101 Introduction to Programming  [R8, R9]
+      R8: CS101 is already in the student's passed courses
+      R9: student level is missing, so level eligibility (R4) of CS101 cannot be verified
+      sources: course_descriptions.md#CS101, registration_rules.md#R8, registration_rules.md#R9
+  - CS201 Data Structures and Algorithms  [R9]
+      R9: student level is missing, so level eligibility (R4) of CS201 cannot be verified
+      sources: course_descriptions.md#CS201, registration_rules.md#R9
+  - CS204 Web Development  [R9]
+      R9: student level is missing, so level eligibility (R4) of CS204 cannot be verified
+      sources: course_descriptions.md#CS204, registration_rules.md#R9
+  - XYZ123 (not in catalog)  [R9]
+      R9: course code XYZ123 is not in the catalog, so eligibility cannot be verified
+      sources: registration_rules.md#R9
+
+FLAGS
+  ! R9: missing field 'level' - level eligibility (R4) cannot be verified
+  ! R9: unknown course code(s) in 'passed': CS999 (not in the catalog)
+  ! R9: missing field 'desired_credits' - the preferred credit load is unknown
+  ! R1: total of 0 credit hours is below the minimum of 12
+
+ADVISOR MESSAGE
+Hi Karim, I cannot recommend any course yet.
+  x CS101 not included: R8: CS101 is already in the student's passed courses; R9: student level is missing, so level eligibility (R4) of CS101 cannot be verified [registration_rules.md#R8] [registration_rules.md#R9]
+  x CS201 not included: R9: student level is missing, so level eligibility (R4) of CS201 cannot be verified [registration_rules.md#R9]
+  x CS204 not included: R9: student level is missing, so level eligibility (R4) of CS204 cannot be verified [registration_rules.md#R9]
+  x XYZ123 not included: R9: course code XYZ123 is not in the catalog, so eligibility cannot be verified [registration_rules.md#R9]
+Please check: R9: missing field 'level' - level eligibility (R4) cannot be verified | R9: unknown course code(s) in 'passed': CS999 (not in the catalog) | R9: missing field 'desired_credits' - the preferred credit load is unknown | R1: total of 0 credit hours is below the minimum of 12
+
+ALL SOURCES USED: course_descriptions.md#CS101, registration_rules.md#R8, registration_rules.md#R9, course_descriptions.md#CS201, course_descriptions.md#CS204, registration_rules.md#R1

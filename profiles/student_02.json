@@ -1,0 +1,28 @@
+{
+  "id": "S02",
+  "name": "Omar Khaled",
+  "level": 3,
+  "gpa": 2.9,
+  "passed": [
+    "CS101",
+    "CS102",
+    "MATH101",
+    "PHYS101",
+    "ENG101",
+    "MATH102",
+    "CS201",
+    "MATH201",
+    "CS202",
+    "CS203",
+    "CS204"
+  ],
+  "skills": [
+    "python"
+  ],
+  "interests": [
+    "AI",
+    "machine learning"
+  ],
+  "desired_credits": 15,
+  "semester": "Fall"
+}

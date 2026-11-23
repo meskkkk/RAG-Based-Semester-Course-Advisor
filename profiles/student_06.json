@@ -1,0 +1,17 @@
+{
+  "id": "S06",
+  "name": "Karim Samir",
+  "gpa": 3.0,
+  "passed": [
+    "CS101",
+    "CS102",
+    "MATH101",
+    "CS999"
+  ],
+  "skills": [],
+  "interests": [
+    "web"
+  ],
+  "desired_credits": null,
+  "semester": "Fall"
+}

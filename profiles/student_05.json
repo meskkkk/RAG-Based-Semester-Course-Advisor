@@ -1,0 +1,37 @@
+{
+  "id": "S05",
+  "name": "Laila Ibrahim",
+  "level": 4,
+  "gpa": 3.6,
+  "passed": [
+    "CS101",
+    "CS102",
+    "MATH101",
+    "PHYS101",
+    "ENG101",
+    "MATH102",
+    "CS201",
+    "MATH201",
+    "MATH202",
+    "CS202",
+    "CS203",
+    "CS204",
+    "CS205",
+    "CS301",
+    "CS302",
+    "CS304",
+    "CS307"
+  ],
+  "skills": [
+    "python",
+    "pytorch",
+    "android"
+  ],
+  "interests": [
+    "NLP",
+    "deep learning",
+    "mobile apps"
+  ],
+  "desired_credits": 18,
+  "semester": "Spring"
+}

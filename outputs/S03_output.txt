@@ -1,0 +1,81 @@
+==========================================================================================
+S03 - Low-GPA probation student (level 3, GPA 1.8, Fall)
+==========================================================================================
+INPUT PROFILE
+{
+ "id": "S03",
+ "name": "Salma Adel",
+ "level": 3,
+ "gpa": 1.8,
+ "passed": [
+  "CS101",
+  "CS102",
+  "MATH101",
+  "PHYS101",
+  "ENG101",
+  "MATH102",
+  "CS201",
+  "MATH201",
+  "MATH202",
+  "CS202",
+  "CS203",
+  "CS204"
+ ],
+ "skills": [
+  "python"
+ ],
+ "interests": [
+  "AI",
+  "data"
+ ],
+ "desired_credits": 15,
+ "semester": "Fall"
+}
+
+STUDENT S03 - Salma Adel   (mode: requested, LLM: offline template)
+Requested courses: CS301, CS302, CS205, CS307, CS304
+Search query: AI. artificial intelligence AI machine learning. data. python. level 3 course. offered in Fall
+
+RETRIEVED EVIDENCE (top passages for this student):
+  [0.232] course_descriptions.md#CS301: CS301 - Machine Learning. Level 3 course, 3 credit hours. Offered in: Fall. Prerequisites: CS201, MATH201, MATH202. Meets: Sun 12:30-14:00; Tue 12:30-14:00. Topics: AI, data. Machine Learning introduces supervised and un...
+  [0.172] course_descriptions.md#MATH202: MATH202 - Probability and Statistics. Level 2 course, 3 credit hours. Offered in: Spring. Prerequisites: MATH101. Meets: Sun 09:30-11:00; Tue 09:30-11:00. Topics: math, data, AI. Probability and Statistics introduces ran...
+  [0.155] course_descriptions.md#MATH201: MATH201 - Linear Algebra. Level 2 course, 3 credit hours. Offered in: Fall. Prerequisites: MATH101. Meets: Mon 11:00-12:30; Wed 11:00-12:30. Topics: math, AI. Linear Algebra covers vectors, matrices, systems of linear eq...
+  [0.137] course_descriptions.md#CS310: CS310 - Introduction to Data Science. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS201, MATH202. Meets: Mon 14:00-15:30; Wed 14:00-15:30. Topics: data, python. Introduction to Data Science teaches...
+  [0.126] course_descriptions.md#CS401: CS401 - Deep Learning. Level 4 course, 3 credit hours. Offered in: Spring. Prerequisites: CS301. Meets: Mon 15:30-17:00; Wed 15:30-17:00. Topics: AI, deep learning. Deep Learning covers neural networks, backpropagation, ...
+  [0.118] course_descriptions.md#CS306: CS306 - Data Mining. Level 3 course, 3 credit hours. Offered in: Spring. Prerequisites: CS202, MATH202. Meets: Sun 14:00-15:30; Tue 13:30-15:00. Topics: data, AI. Data Mining covers methods for finding patterns in large ...
+
+RECOMMENDED COURSES  (total 9 credit hours; allowed 9-12, R3 probation)
+  + CS301 Machine Learning (3 cr)
+      why: matches your AI, data, python (topics: AI, data); relevance 0.26
+      eligible: level 3 <= your level 3 (R4); prerequisites CS201, MATH201, MATH202 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 9-12 credit limit (R3)
+      sources: course_descriptions.md#CS301, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R3
+  + CS302 Software Engineering (3 cr)
+      why: broadens your study plan (topics: software, teamwork); relevance 0.10
+      eligible: level 3 <= your level 3 (R4); prerequisites CS202 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 9-12 credit limit (R3)
+      sources: course_descriptions.md#CS302, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R3
+  + CS205 Operating Systems (3 cr)
+      why: broadens your study plan (topics: systems); relevance 0.03
+      eligible: level 2 <= your level 3 (R4); prerequisites CS203 passed (R5); offered in Fall (R6); no time clash with the other courses (R7); fits the 9-12 credit limit (R3)
+      sources: course_descriptions.md#CS205, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R3
+
+EXCLUDED COURSES
+  - CS307 Embedded Systems  [R3]
+      R3: adding CS307 (4 cr) would bring the load to 13 credit hours, above the probation maximum of 12
+      sources: course_descriptions.md#CS307, registration_rules.md#R3
+  - CS304 Image Processing and Computer Vision  [R7]
+      R7: time clash with CS301 (CS304 Sun 12:30-14:00 overlaps CS301 Sun 12:30-14:00; CS304 Tue 12:30-14:00 overlaps CS301 Tue 12:30-14:00)
+      sources: course_descriptions.md#CS304, registration_rules.md#R7
+
+FLAGS
+  ! R3: desired credit load of 15 exceeds the maximum of 12 credit hours allowed
+
+ADVISOR MESSAGE
+Hi Salma, based on your interest in AI, data and the courses you have passed, these 3 course(s) (9 credit hours) are allowed for you this Fall:
+  * CS301 Machine Learning: matches your AI, data, python (topics: AI, data); relevance 0.26 [course_descriptions.md#CS301]
+  * CS302 Software Engineering: broadens your study plan (topics: software, teamwork); relevance 0.10 [course_descriptions.md#CS302]
+  * CS205 Operating Systems: broadens your study plan (topics: systems); relevance 0.03 [course_descriptions.md#CS205]
+  x CS307 not included: R3: adding CS307 (4 cr) would bring the load to 13 credit hours, above the probation maximum of 12 [registration_rules.md#R3]
+  x CS304 not included: R7: time clash with CS301 (CS304 Sun 12:30-14:00 overlaps CS301 Sun 12:30-14:00; CS304 Tue 12:30-14:00 overlaps CS301 Tue 12:30-14:00) [registration_rules.md#R7]
+Please check: R3: desired credit load of 15 exceeds the maximum of 12 credit hours allowed
+
+ALL SOURCES USED: course_descriptions.md#CS301, registration_rules.md#R4, registration_rules.md#R5, registration_rules.md#R6, registration_rules.md#R7, registration_rules.md#R3, course_descriptions.md#CS302, course_descriptions.md#CS205, course_descriptions.md#CS307, course_descriptions.md#CS304

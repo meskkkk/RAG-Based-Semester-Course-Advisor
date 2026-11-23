@@ -1,0 +1,29 @@
+{
+  "id": "S03",
+  "name": "Salma Adel",
+  "level": 3,
+  "gpa": 1.8,
+  "passed": [
+    "CS101",
+    "CS102",
+    "MATH101",
+    "PHYS101",
+    "ENG101",
+    "MATH102",
+    "CS201",
+    "MATH201",
+    "MATH202",
+    "CS202",
+    "CS203",
+    "CS204"
+  ],
+  "skills": [
+    "python"
+  ],
+  "interests": [
+    "AI",
+    "data"
+  ],
+  "desired_credits": 15,
+  "semester": "Fall"
+}

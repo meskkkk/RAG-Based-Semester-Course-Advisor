@@ -1,0 +1,37 @@
+{
+  "id": "S04",
+  "name": "Youssef Mostafa",
+  "level": 4,
+  "gpa": 3.2,
+  "passed": [
+    "CS101",
+    "CS102",
+    "MATH101",
+    "PHYS101",
+    "ENG101",
+    "MATH102",
+    "CS201",
+    "MATH201",
+    "MATH202",
+    "CS202",
+    "CS203",
+    "CS205",
+    "CS301",
+    "CS302",
+    "CS303",
+    "CS305",
+    "CS306",
+    "CS310"
+  ],
+  "skills": [
+    "python",
+    "sql",
+    "networking"
+  ],
+  "interests": [
+    "security",
+    "big data"
+  ],
+  "desired_credits": 21,
+  "semester": "Fall"
+}
